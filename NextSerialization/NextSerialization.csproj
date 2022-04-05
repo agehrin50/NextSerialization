@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <ApplicationIcon>DiagraphLogo.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Contains serialization classes and models for the NextMessage format.</Description>
+    <Copyright>Diagraph</Copyright>
+    <PackageIcon>Diagraph_Logo_Stacked_Blue_rgb.jpg</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="docfx_project\_site\**" />
+    <Compile Remove="Documentation\_site\**" />
+    <EmbeddedResource Remove="docfx_project\_site\**" />
+    <EmbeddedResource Remove="Documentation\_site\**" />
+    <None Remove="docfx_project\_site\**" />
+    <None Remove="Documentation\_site\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\NextFileXmlClasses.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="DiagraphLogo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\Diagraph_Logo_Stacked_Blue_rgb.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\DiagraphReferenceResMarkData.next">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\NextMessageSchema.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
