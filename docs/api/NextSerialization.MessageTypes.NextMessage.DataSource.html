@@ -73,7 +73,9 @@
   
   <h1 id="NextSerialization_MessageTypes_NextMessage_DataSource" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource" class="text-break">Class DataSource
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Defines the properties needed to connect to a database, Excel, or CSV file along with the table and
+columns to use as the source for data on a <a class="xref" href="NextSerialization.MessageTypes.NextMessage.VariableField.html">VariableField</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -110,6 +112,9 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class DataSource</code></pre>
   </div>
+  <h5 id="NextSerialization_MessageTypes_NextMessage_DataSource_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The <a class="xref" href="NextSerialization.MessageTypes.NextMessage.DataSource.html">DataSource</a> class corresponds to the DataSetObject node of the message XML.</p>
+</div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -117,11 +122,12 @@
     <a href="https://github.com/diagraph-developer/NextSerialization/new/main/apiSpec/new?filename=NextSerialization_MessageTypes_NextMessage_DataSource_ColumnValues.md&amp;value=---%0Auid%3A%20NextSerialization.MessageTypes.NextMessage.DataSource.ColumnValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L27">View Source</a>
+    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L29">View Source</a>
   </span>
   <a id="NextSerialization_MessageTypes_NextMessage_DataSource_ColumnValues_" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.ColumnValues*"></a>
   <h4 id="NextSerialization_MessageTypes_NextMessage_DataSource_ColumnValues" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.ColumnValues">ColumnValues</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The default columns and values displayed to the user.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -147,11 +153,12 @@
     <a href="https://github.com/diagraph-developer/NextSerialization/new/main/apiSpec/new?filename=NextSerialization_MessageTypes_NextMessage_DataSource_DataColumns.md&amp;value=---%0Auid%3A%20NextSerialization.MessageTypes.NextMessage.DataSource.DataColumns%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L20">View Source</a>
+    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L22">View Source</a>
   </span>
   <a id="NextSerialization_MessageTypes_NextMessage_DataSource_DataColumns_" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.DataColumns*"></a>
   <h4 id="NextSerialization_MessageTypes_NextMessage_DataSource_DataColumns" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.DataColumns">DataColumns</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The data columns available to draw data from.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -177,11 +184,12 @@
     <a href="https://github.com/diagraph-developer/NextSerialization/new/main/apiSpec/new?filename=NextSerialization_MessageTypes_NextMessage_DataSource_DataConnection.md&amp;value=---%0Auid%3A%20NextSerialization.MessageTypes.NextMessage.DataSource.DataConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L46">View Source</a>
+    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L51">View Source</a>
   </span>
   <a id="NextSerialization_MessageTypes_NextMessage_DataSource_DataConnection_" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.DataConnection*"></a>
   <h4 id="NextSerialization_MessageTypes_NextMessage_DataSource_DataConnection" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.DataConnection">DataConnection</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>An identifier used to indicate the connection information to use.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -202,16 +210,20 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="NextSerialization_MessageTypes_NextMessage_DataSource_DataConnection_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The database connection information is stored in a separate file.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/diagraph-developer/NextSerialization/new/main/apiSpec/new?filename=NextSerialization_MessageTypes_NextMessage_DataSource_DisplayColumns.md&amp;value=---%0Auid%3A%20NextSerialization.MessageTypes.NextMessage.DataSource.DisplayColumns%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L13">View Source</a>
+    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L15">View Source</a>
   </span>
   <a id="NextSerialization_MessageTypes_NextMessage_DataSource_DisplayColumns_" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.DisplayColumns*"></a>
   <h4 id="NextSerialization_MessageTypes_NextMessage_DataSource_DisplayColumns" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.DisplayColumns">DisplayColumns</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The data columns displayed to the user when creating a <a class="xref" href="NextSerialization.MessageTypes.NextMessage.VariableField.html">VariableField</a> element.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -237,11 +249,12 @@
     <a href="https://github.com/diagraph-developer/NextSerialization/new/main/apiSpec/new?filename=NextSerialization_MessageTypes_NextMessage_DataSource_Id.md&amp;value=---%0Auid%3A%20NextSerialization.MessageTypes.NextMessage.DataSource.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L52">View Source</a>
+    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L57">View Source</a>
   </span>
   <a id="NextSerialization_MessageTypes_NextMessage_DataSource_Id_" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.Id*"></a>
   <h4 id="NextSerialization_MessageTypes_NextMessage_DataSource_Id" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.Id">Id</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A unique (GUID) identifier for the data source.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -267,11 +280,12 @@
     <a href="https://github.com/diagraph-developer/NextSerialization/new/main/apiSpec/new?filename=NextSerialization_MessageTypes_NextMessage_DataSource_Name.md&amp;value=---%0Auid%3A%20NextSerialization.MessageTypes.NextMessage.DataSource.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L34">View Source</a>
+    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L36">View Source</a>
   </span>
   <a id="NextSerialization_MessageTypes_NextMessage_DataSource_Name_" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.Name*"></a>
   <h4 id="NextSerialization_MessageTypes_NextMessage_DataSource_Name" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The database or spreadsheet name.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -297,11 +311,12 @@
     <a href="https://github.com/diagraph-developer/NextSerialization/new/main/apiSpec/new?filename=NextSerialization_MessageTypes_NextMessage_DataSource_TableName.md&amp;value=---%0Auid%3A%20NextSerialization.MessageTypes.NextMessage.DataSource.TableName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L40">View Source</a>
+    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L42">View Source</a>
   </span>
   <a id="NextSerialization_MessageTypes_NextMessage_DataSource_TableName_" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.TableName*"></a>
   <h4 id="NextSerialization_MessageTypes_NextMessage_DataSource_TableName" data-uid="NextSerialization.MessageTypes.NextMessage.DataSource.TableName">TableName</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The name of the database table or Excel sheet.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -333,7 +348,7 @@
                     <a href="https://github.com/diagraph-developer/NextSerialization/new/main/apiSpec/new?filename=NextSerialization_MessageTypes_NextMessage_DataSource.md&amp;value=---%0Auid%3A%20NextSerialization.MessageTypes.NextMessage.DataSource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/diagraph-developer/NextSerialization/blob/main/NextSerialization/MessageTypes/NextMessage/Models/DataSource.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

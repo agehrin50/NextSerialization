@@ -13,6 +13,19 @@ references:
   commentId: T:NextSerialization.MessageTypes.NextMessage.BarcodeField
   fullName: NextSerialization.MessageTypes.NextMessage.BarcodeField
   nameWithType: BarcodeField
+- uid: NextSerialization.MessageTypes.NextMessage.BarcodeField.BarcodeType
+  name: BarcodeType
+  href: api/NextSerialization.MessageTypes.NextMessage.BarcodeField.html#NextSerialization_MessageTypes_NextMessage_BarcodeField_BarcodeType
+  commentId: P:NextSerialization.MessageTypes.NextMessage.BarcodeField.BarcodeType
+  fullName: NextSerialization.MessageTypes.NextMessage.BarcodeField.BarcodeType
+  nameWithType: BarcodeField.BarcodeType
+- uid: NextSerialization.MessageTypes.NextMessage.BarcodeField.BarcodeType*
+  name: BarcodeType
+  href: api/NextSerialization.MessageTypes.NextMessage.BarcodeField.html#NextSerialization_MessageTypes_NextMessage_BarcodeField_BarcodeType_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.BarcodeField.BarcodeType
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.BarcodeField.BarcodeType
+  nameWithType: BarcodeField.BarcodeType
 - uid: NextSerialization.MessageTypes.NextMessage.BarcodeField.FieldObject
   name: FieldObject
   href: api/NextSerialization.MessageTypes.NextMessage.BarcodeField.html#NextSerialization_MessageTypes_NextMessage_BarcodeField_FieldObject
@@ -65,19 +78,6 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.BarcodeField.Parameters
   nameWithType: BarcodeField.Parameters
-- uid: NextSerialization.MessageTypes.NextMessage.BarcodeField.Type
-  name: Type
-  href: api/NextSerialization.MessageTypes.NextMessage.BarcodeField.html#NextSerialization_MessageTypes_NextMessage_BarcodeField_Type
-  commentId: P:NextSerialization.MessageTypes.NextMessage.BarcodeField.Type
-  fullName: NextSerialization.MessageTypes.NextMessage.BarcodeField.Type
-  nameWithType: BarcodeField.Type
-- uid: NextSerialization.MessageTypes.NextMessage.BarcodeField.Type*
-  name: Type
-  href: api/NextSerialization.MessageTypes.NextMessage.BarcodeField.html#NextSerialization_MessageTypes_NextMessage_BarcodeField_Type_
-  commentId: Overload:NextSerialization.MessageTypes.NextMessage.BarcodeField.Type
-  isSpec: "True"
-  fullName: NextSerialization.MessageTypes.NextMessage.BarcodeField.Type
-  nameWithType: BarcodeField.Type
 - uid: NextSerialization.MessageTypes.NextMessage.Bearer
   name: Bearer
   href: api/NextSerialization.MessageTypes.NextMessage.Bearer.html
@@ -966,6 +966,58 @@ references:
   commentId: T:NextSerialization.MessageTypes.NextMessage.Margin
   fullName: NextSerialization.MessageTypes.NextMessage.Margin
   nameWithType: Margin
+- uid: NextSerialization.MessageTypes.NextMessage.Margin.Left
+  name: Left
+  href: api/NextSerialization.MessageTypes.NextMessage.Margin.html#NextSerialization_MessageTypes_NextMessage_Margin_Left
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Margin.Left
+  fullName: NextSerialization.MessageTypes.NextMessage.Margin.Left
+  nameWithType: Margin.Left
+- uid: NextSerialization.MessageTypes.NextMessage.Margin.Left*
+  name: Left
+  href: api/NextSerialization.MessageTypes.NextMessage.Margin.html#NextSerialization_MessageTypes_NextMessage_Margin_Left_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Margin.Left
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Margin.Left
+  nameWithType: Margin.Left
+- uid: NextSerialization.MessageTypes.NextMessage.Margin.LeftSpecified
+  name: LeftSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Margin.html#NextSerialization_MessageTypes_NextMessage_Margin_LeftSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Margin.LeftSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.Margin.LeftSpecified
+  nameWithType: Margin.LeftSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.Margin.LeftSpecified*
+  name: LeftSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Margin.html#NextSerialization_MessageTypes_NextMessage_Margin_LeftSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Margin.LeftSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Margin.LeftSpecified
+  nameWithType: Margin.LeftSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.Margin.Right
+  name: Right
+  href: api/NextSerialization.MessageTypes.NextMessage.Margin.html#NextSerialization_MessageTypes_NextMessage_Margin_Right
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Margin.Right
+  fullName: NextSerialization.MessageTypes.NextMessage.Margin.Right
+  nameWithType: Margin.Right
+- uid: NextSerialization.MessageTypes.NextMessage.Margin.Right*
+  name: Right
+  href: api/NextSerialization.MessageTypes.NextMessage.Margin.html#NextSerialization_MessageTypes_NextMessage_Margin_Right_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Margin.Right
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Margin.Right
+  nameWithType: Margin.Right
+- uid: NextSerialization.MessageTypes.NextMessage.Margin.RightSpecified
+  name: RightSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Margin.html#NextSerialization_MessageTypes_NextMessage_Margin_RightSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Margin.RightSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.Margin.RightSpecified
+  nameWithType: Margin.RightSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.Margin.RightSpecified*
+  name: RightSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Margin.html#NextSerialization_MessageTypes_NextMessage_Margin_RightSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Margin.RightSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Margin.RightSpecified
+  nameWithType: Margin.RightSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.Models
   name: NextSerialization.MessageTypes.NextMessage.Models
   href: api/NextSerialization.MessageTypes.NextMessage.Models.html
@@ -1107,19 +1159,6 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.Parameters.QuietZone
   nameWithType: Parameters.QuietZone
-- uid: NextSerialization.MessageTypes.NextMessage.Parameters.Ratio
-  name: Ratio
-  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_Ratio
-  commentId: P:NextSerialization.MessageTypes.NextMessage.Parameters.Ratio
-  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.Ratio
-  nameWithType: Parameters.Ratio
-- uid: NextSerialization.MessageTypes.NextMessage.Parameters.Ratio*
-  name: Ratio
-  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_Ratio_
-  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Parameters.Ratio
-  isSpec: "True"
-  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.Ratio
-  nameWithType: Parameters.Ratio
 - uid: NextSerialization.MessageTypes.NextMessage.PrintHead
   name: PrintHead
   href: api/NextSerialization.MessageTypes.NextMessage.PrintHead.html
