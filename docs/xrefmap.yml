@@ -600,6 +600,32 @@ references:
   commentId: T:NextSerialization.MessageTypes.NextMessage.FieldObject
   fullName: NextSerialization.MessageTypes.NextMessage.FieldObject
   nameWithType: FieldObject
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.Ai
+  name: Ai
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_Ai
+  commentId: P:NextSerialization.MessageTypes.NextMessage.FieldObject.Ai
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.Ai
+  nameWithType: FieldObject.Ai
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.Ai*
+  name: Ai
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_Ai_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.FieldObject.Ai
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.Ai
+  nameWithType: FieldObject.Ai
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.AiSpecified
+  name: AiSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_AiSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.FieldObject.AiSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.AiSpecified
+  nameWithType: FieldObject.AiSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.AiSpecified*
+  name: AiSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_AiSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.FieldObject.AiSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.AiSpecified
+  nameWithType: FieldObject.AiSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.FieldObject.FNC1
   name: FNC1
   href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_FNC1
@@ -626,6 +652,19 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.Height
   nameWithType: FieldObject.Height
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.HeightSpecified
+  name: HeightSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_HeightSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.FieldObject.HeightSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.HeightSpecified
+  nameWithType: FieldObject.HeightSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.HeightSpecified*
+  name: HeightSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_HeightSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.FieldObject.HeightSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.HeightSpecified
+  nameWithType: FieldObject.HeightSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.FieldObject.LockAspectRatio
   name: LockAspectRatio
   href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_LockAspectRatio
@@ -639,6 +678,32 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.LockAspectRatio
   nameWithType: FieldObject.LockAspectRatio
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.Regex
+  name: Regex
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_Regex
+  commentId: P:NextSerialization.MessageTypes.NextMessage.FieldObject.Regex
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.Regex
+  nameWithType: FieldObject.Regex
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.Regex*
+  name: Regex
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_Regex_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.FieldObject.Regex
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.Regex
+  nameWithType: FieldObject.Regex
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.RegexSpecified
+  name: RegexSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_RegexSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.FieldObject.RegexSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.RegexSpecified
+  nameWithType: FieldObject.RegexSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.RegexSpecified*
+  name: RegexSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_RegexSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.FieldObject.RegexSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.RegexSpecified
+  nameWithType: FieldObject.RegexSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.FieldObject.Width
   name: Width
   href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_Width
@@ -652,6 +717,19 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.Width
   nameWithType: FieldObject.Width
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.WidthSpecified
+  name: WidthSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_WidthSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.FieldObject.WidthSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.WidthSpecified
+  nameWithType: FieldObject.WidthSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.WidthSpecified*
+  name: WidthSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_WidthSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.FieldObject.WidthSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.WidthSpecified
+  nameWithType: FieldObject.WidthSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.FieldObject.X
   name: X
   href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_X
@@ -665,6 +743,19 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.X
   nameWithType: FieldObject.X
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.XSpecified
+  name: XSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_XSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.FieldObject.XSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.XSpecified
+  nameWithType: FieldObject.XSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.XSpecified*
+  name: XSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_XSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.FieldObject.XSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.XSpecified
+  nameWithType: FieldObject.XSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.FieldObject.Y
   name: Y
   href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_Y
@@ -678,6 +769,19 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.Y
   nameWithType: FieldObject.Y
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.YSpecified
+  name: YSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_YSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.FieldObject.YSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.YSpecified
+  nameWithType: FieldObject.YSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.FieldObject.YSpecified*
+  name: YSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.FieldObject.html#NextSerialization_MessageTypes_NextMessage_FieldObject_YSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.FieldObject.YSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.FieldObject.YSpecified
+  nameWithType: FieldObject.YSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.Font
   name: Font
   href: api/NextSerialization.MessageTypes.NextMessage.Font.html
@@ -1094,6 +1198,32 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.Parameters.Bearer
   nameWithType: Parameters.Bearer
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitive
+  name: CaseSensitive
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_CaseSensitive
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitive
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitive
+  nameWithType: Parameters.CaseSensitive
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitive*
+  name: CaseSensitive
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_CaseSensitive_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitive
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitive
+  nameWithType: Parameters.CaseSensitive
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitiveSpecified
+  name: CaseSensitiveSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_CaseSensitiveSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitiveSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitiveSpecified
+  nameWithType: Parameters.CaseSensitiveSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitiveSpecified*
+  name: CaseSensitiveSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_CaseSensitiveSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitiveSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.CaseSensitiveSpecified
+  nameWithType: Parameters.CaseSensitiveSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.Parameters.Checksum
   name: Checksum
   href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_Checksum
@@ -1107,6 +1237,32 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.Parameters.Checksum
   nameWithType: Parameters.Checksum
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.Encoding
+  name: Encoding
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_Encoding
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Parameters.Encoding
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.Encoding
+  nameWithType: Parameters.Encoding
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.Encoding*
+  name: Encoding
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_Encoding_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Parameters.Encoding
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.Encoding
+  nameWithType: Parameters.Encoding
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.EncodingSpecified
+  name: EncodingSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_EncodingSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Parameters.EncodingSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.EncodingSpecified
+  nameWithType: Parameters.EncodingSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.EncodingSpecified*
+  name: EncodingSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_EncodingSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Parameters.EncodingSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.EncodingSpecified
+  nameWithType: Parameters.EncodingSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.Parameters.FormattedRatio
   name: FormattedRatio
   href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_FormattedRatio
@@ -1120,6 +1276,19 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.Parameters.FormattedRatio
   nameWithType: Parameters.FormattedRatio
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.FormattedRatioSpecified
+  name: FormattedRatioSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_FormattedRatioSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Parameters.FormattedRatioSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.FormattedRatioSpecified
+  nameWithType: Parameters.FormattedRatioSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.FormattedRatioSpecified*
+  name: FormattedRatioSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_FormattedRatioSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Parameters.FormattedRatioSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.FormattedRatioSpecified
+  nameWithType: Parameters.FormattedRatioSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.Parameters.IsHumanReadable
   name: IsHumanReadable
   href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_IsHumanReadable
@@ -1133,6 +1302,19 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.Parameters.IsHumanReadable
   nameWithType: Parameters.IsHumanReadable
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.IsHumanReadableSpecified
+  name: IsHumanReadableSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_IsHumanReadableSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.Parameters.IsHumanReadableSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.IsHumanReadableSpecified
+  nameWithType: Parameters.IsHumanReadableSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.Parameters.IsHumanReadableSpecified*
+  name: IsHumanReadableSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_IsHumanReadableSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.Parameters.IsHumanReadableSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.Parameters.IsHumanReadableSpecified
+  nameWithType: Parameters.IsHumanReadableSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.Parameters.MilSize
   name: MilSize
   href: api/NextSerialization.MessageTypes.NextMessage.Parameters.html#NextSerialization_MessageTypes_NextMessage_Parameters_MilSize
@@ -1651,6 +1833,58 @@ references:
   isSpec: "True"
   fullName: NextSerialization.MessageTypes.NextMessage.VariableField.DefaultPreview
   nameWithType: VariableField.DefaultPreview
+- uid: NextSerialization.MessageTypes.NextMessage.VariableField.Length
+  name: Length
+  href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_Length
+  commentId: P:NextSerialization.MessageTypes.NextMessage.VariableField.Length
+  fullName: NextSerialization.MessageTypes.NextMessage.VariableField.Length
+  nameWithType: VariableField.Length
+- uid: NextSerialization.MessageTypes.NextMessage.VariableField.Length*
+  name: Length
+  href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_Length_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.VariableField.Length
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.VariableField.Length
+  nameWithType: VariableField.Length
+- uid: NextSerialization.MessageTypes.NextMessage.VariableField.LengthSpecified
+  name: LengthSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_LengthSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.VariableField.LengthSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.VariableField.LengthSpecified
+  nameWithType: VariableField.LengthSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.VariableField.LengthSpecified*
+  name: LengthSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_LengthSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.VariableField.LengthSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.VariableField.LengthSpecified
+  nameWithType: VariableField.LengthSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.VariableField.PromptText
+  name: PromptText
+  href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_PromptText
+  commentId: P:NextSerialization.MessageTypes.NextMessage.VariableField.PromptText
+  fullName: NextSerialization.MessageTypes.NextMessage.VariableField.PromptText
+  nameWithType: VariableField.PromptText
+- uid: NextSerialization.MessageTypes.NextMessage.VariableField.PromptText*
+  name: PromptText
+  href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_PromptText_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.VariableField.PromptText
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.VariableField.PromptText
+  nameWithType: VariableField.PromptText
+- uid: NextSerialization.MessageTypes.NextMessage.VariableField.PromptTextSpecified
+  name: PromptTextSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_PromptTextSpecified
+  commentId: P:NextSerialization.MessageTypes.NextMessage.VariableField.PromptTextSpecified
+  fullName: NextSerialization.MessageTypes.NextMessage.VariableField.PromptTextSpecified
+  nameWithType: VariableField.PromptTextSpecified
+- uid: NextSerialization.MessageTypes.NextMessage.VariableField.PromptTextSpecified*
+  name: PromptTextSpecified
+  href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_PromptTextSpecified_
+  commentId: Overload:NextSerialization.MessageTypes.NextMessage.VariableField.PromptTextSpecified
+  isSpec: "True"
+  fullName: NextSerialization.MessageTypes.NextMessage.VariableField.PromptTextSpecified
+  nameWithType: VariableField.PromptTextSpecified
 - uid: NextSerialization.MessageTypes.NextMessage.VariableField.Source
   name: Source
   href: api/NextSerialization.MessageTypes.NextMessage.VariableField.html#NextSerialization_MessageTypes_NextMessage_VariableField_Source
