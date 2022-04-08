@@ -13,6 +13,7 @@ public class Parameters
     private decimal ratio;
     private bool isHumanReadable;
     private bool checksum;
+    private bool caseSensitive;
 
     /// <summary>
     /// Used to prevent the direct printing pressure from being concentrated on the barcode and to keep the printing pressure even.
@@ -44,6 +45,16 @@ public class Parameters
     }
 
     /// <summary>
+    /// Tells the serializer to omit the <see cref="IsHumanReadable"/> XML node when the value of <see cref="IsHumanReadable"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool IsHumanReadableSpecified { get; set; }
+
+    /// <summary>
     /// The differenc of width of the thin and thick bars on an I2 of 5 barcode type.
     /// </summary>
     [XmlAttribute("Ratio")]
@@ -52,6 +63,16 @@ public class Parameters
         get => ratio.ToString("F3");
         set => decimal.TryParse(value, out ratio);
     }
+
+    /// <summary>
+    /// Tells the serializer to omit the <see cref="FormattedRatio"/> XML node when the value of <see cref="FormattedRatio"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool FormattedRatioSpecified { get; set; }
 
     /// <summary>
     /// The number located on the far right side of a bar code. The purpose of a check digit is to verify 
@@ -63,4 +84,40 @@ public class Parameters
         get => checksum.ToString();
         set => checksum = bool.Parse(value);
     }
+
+    /// <summary>
+    /// Specifies the type of encoding for the barcode. (ex. 8-bit)
+    /// </summary>
+    [XmlAttribute]
+    public string Encoding { get; set; }
+
+    /// <summary>
+    /// Tells the serializer to omit the <see cref="Encoding"/> XML node when the value of <see cref="Encoding"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool EncodingSpecified { get; set; }
+
+    /// <summary>
+    /// Indicates whether the barcode is case sensitive or not.
+    /// </summary>
+    [XmlAttribute]
+    public string CaseSensitive
+    {
+        get => caseSensitive.ToString();
+        set => caseSensitive = bool.Parse(value);
+    }
+
+    /// <summary>
+    /// Tells the serializer to omit the <see cref="CaseSensitive"/> XML node when the value of <see cref="CaseSensitive"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool CaseSensitiveSpecified { get; set; }
 }

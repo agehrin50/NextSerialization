@@ -41,11 +41,31 @@ public abstract class FieldObject : IFieldObject
     public decimal X { get; set; }
 
     /// <summary>
+    /// Tells the serializer to omit the <see cref="Days"/> XML node when the value of <see cref="Days"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool XSpecified { get; set; }
+
+    /// <summary>
     /// The vertical distance that the element will be rendered measured, in inches, from the top left corner of the message.
     /// </summary>
     /// <remarks>The units of measure for the <see cref="Y"/> coordinate are localized in the UI but will always be saved in the message file in inches.</remarks>
     [XmlAttribute]
     public decimal Y { get; set; }
+
+    /// <summary>
+    /// Tells the serializer to omit the <see cref="Y"/> XML node when the value of <see cref="Y"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool YSpecified { get; set; }
 
     /// <summary>
     /// The horizontal measurement of the size of the element.
@@ -55,11 +75,31 @@ public abstract class FieldObject : IFieldObject
     public virtual decimal Width { get; set; }
 
     /// <summary>
+    /// Tells the serializer to omit the <see cref="Width"/> XML node when the value of <see cref="Width"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool WidthSpecified { get; set; }
+
+    /// <summary>
     /// The vertical measurement of the size of the element.
     /// </summary>
     /// <remarks>The units of measure for the <see cref="Height"/> are localized in the UI but will always be saved in the message file in inches.</remarks>
     [XmlAttribute]
     public decimal Height { get; set; }
+
+    /// <summary>
+    /// Tells the serializer to omit the <see cref="Height"/> XML node when the value of <see cref="Height"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool HeightSpecified { get; set; }
 
     /// <summary>
     /// Indicates that the element's aspect ratio should be maintained when resizing.
@@ -73,4 +113,37 @@ public abstract class FieldObject : IFieldObject
     /// <remarks>Note: <see cref="FNC1"/> is only used when a <see cref="FieldObject"/> is a sub-element of a <see cref="BarcodeField"/> element.</remarks>
     [XmlAttribute]
     public virtual string? FNC1 { get; set; }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [XmlAttribute(AttributeName = "AI")]
+    public virtual string? Ai { get; set; }
+
+    /// <summary>
+    /// Tells the serializer to omit the <see cref="Height"/> XML node when the value of <see cref="Height"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool AiSpecified { get; set; }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [XmlAttribute]
+    public string? Regex { get; set; }
+
+    /// <summary>
+    /// Tells the serializer to omit the <see cref="Regex"/> XML node when the value of <see cref="Regex"/> is 
+    /// the default value or null.
+    /// </summary>
+    /// <remarks>
+    /// This property is used internally by the serializer and should not be set programatically.
+    /// </remarks>
+    [XmlIgnore]
+    public bool RegexSpecified { get; set; }
+
 }
