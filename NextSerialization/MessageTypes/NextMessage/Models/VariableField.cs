@@ -17,13 +17,14 @@ public class VariableField : TextField
     public string? Source { get; set; }
 
     /// <summary>
-    /// Identifies the name of the <code>DataSetObject</code> of <see cref="Variables.DataSources"/>.
+    /// Identifies the name of the <see cref="DataSource"/>.  The value of this attribute must appear as the <see cref="DataSource.Name"/>
+    /// attribute of one of the DataSetObject XML nodes.
     /// </summary>
     [XmlAttribute]
     public string? DataSetName { get; set; }
 
     /// <summary>
-    /// Identifies the <see cref="Column.Name"/> of the <code>DataColumns</code> XML node.
+    /// Identifies the <see cref="Column.Name"/> of the <see cref="DataSource.DataColumns"/> XML node.
     /// </summary>
     [XmlAttribute]
     public string? DataColumnName { get; set; }
