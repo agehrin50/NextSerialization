@@ -90,6 +90,9 @@ public class Product
     /// <summary>
     /// Represents a <see cref="Product"/> surface in which message data will be printed.
     /// </summary>
+    /// <remarks>
+    /// <b>NOTE:</b> Only the "Front" <see cref="Panel"/> is used.
+    /// </remarks>
     [XmlElement("Panel")]
     public Panel[]? Panel { get; set; }
 

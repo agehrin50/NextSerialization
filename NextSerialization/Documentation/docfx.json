@@ -9,6 +9,7 @@
         }
       ],
       "dest": "api",
+      "filter": "filterConfig.yml",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }
@@ -23,8 +24,6 @@
       },
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -40,12 +39,13 @@
     "overwrite": [
       {
         "files": [
-          "apidoc/**.md"
+          "**/apidoc/**.md"
         ],
         "exclude": [
-          "obj/**",
-          "../../docs/**"
-        ]
+          "**/obj/**",
+          "docs/**"
+        ],
+        "src": "../../"
       }
     ],
     "dest": "../../docs",

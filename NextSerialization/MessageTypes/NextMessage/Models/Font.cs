@@ -25,13 +25,13 @@ public class Font : IFontObject
     public string? Style { get; set; }
 
     /// <summary>
-    /// The overall horizontal dimention of the element.
+    /// The horizontal character size in points.
     /// </summary>
     [XmlAttribute]
     public int Width { get; set; }
 
     /// <summary>
-    /// The overall vertical dimention of the element.
+    /// The vertical character size in points.
     /// </summary>
     [XmlAttribute]
     public int Height { get; set; }

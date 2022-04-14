@@ -12,19 +12,19 @@ using System.Xml.Serialization;
 public class Box
 {
     /// <summary>
-    /// The width of the print surface.
+    /// The width, in inches, of the print surface.
     /// </summary>
     [XmlAttribute]
     public decimal Width { get; set; }
 
     /// <summary>
-    /// The length of the message.
+    /// The length, in inches, of the message.
     /// </summary>
     [XmlAttribute]
     public decimal Length { get; set; }
 
     /// <summary>
-    /// The height of the print surface.
+    /// The height, in inches, of the print surface.
     /// </summary>
     [XmlAttribute]
     public decimal Height { get; set; }

@@ -54,7 +54,7 @@ public class PrintHead
     public bool TypeSpecified { get; set; }
 
     /// <summary>
-    /// The physical distance that the print head is from the trigger point.
+    /// The physical distance, in inches, that the print head is from the trigger point.
     /// </summary>
     [XmlAttribute]
     public decimal Offset { get; set; }
