@@ -1,0 +1,822 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Parameters
+  commentId: T:NextSerialization.MessageTypes.Next.Parameters
+  id: Parameters
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.Parameters.Bearer
+  - NextSerialization.MessageTypes.Next.Parameters.CaseSensitive
+  - NextSerialization.MessageTypes.Next.Parameters.Checksum
+  - NextSerialization.MessageTypes.Next.Parameters.Encoding
+  - NextSerialization.MessageTypes.Next.Parameters.FormattedRatio
+  - NextSerialization.MessageTypes.Next.Parameters.Height
+  - NextSerialization.MessageTypes.Next.Parameters.IsHumanReadable
+  - NextSerialization.MessageTypes.Next.Parameters.MilSize
+  - NextSerialization.MessageTypes.Next.Parameters.QuietZone
+  - NextSerialization.MessageTypes.Next.Parameters.Width
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: Parameters
+  fullName: NextSerialization.MessageTypes.Next.Parameters
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Parameters
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 10
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nDefines aspects of the barcode required to validate and render properly.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Parameters
+    content.vb: >-
+      <Serializable>
+
+      Public Class Parameters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.Parameters.Bearer
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.Bearer
+  id: Bearer
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: Bearer
+  nameWithType: Parameters.Bearer
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Bearer
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Bearer
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 22
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nUsed to prevent the direct printing pressure from being concentrated on the barcode and to keep the printing pressure even.\n"
+  example: []
+  syntax:
+    content: public Bearer Bearer { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Bearer
+    content.vb: Public Property Bearer As Bearer
+  overload: NextSerialization.MessageTypes.Next.Parameters.Bearer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.MilSize
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.MilSize
+  id: MilSize
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: MilSize
+  nameWithType: Parameters.MilSize
+  fullName: NextSerialization.MessageTypes.Next.Parameters.MilSize
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: MilSize
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 28
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nSpecifies the width of the narrowest element, whether it&apos;s a bar or space, in thousandths of an inch.\n"
+  example: []
+  syntax:
+    content: public int MilSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MilSize As Integer
+  overload: NextSerialization.MessageTypes.Next.Parameters.MilSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.QuietZone
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.QuietZone
+  id: QuietZone
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: QuietZone
+  nameWithType: Parameters.QuietZone
+  fullName: NextSerialization.MessageTypes.Next.Parameters.QuietZone
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: QuietZone
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 35
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe quiet zone is the area that surrounds the barcode or 2D symbol that is free of all text, characters, graphics, marks, and blemishes.\nThis blank space allows verifiers or readers to &quot; understand&quot; where the barcode begins and ends so the code can be read as intended.\n"
+  example: []
+  syntax:
+    content: public decimal QuietZone { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property QuietZone As Decimal
+  overload: NextSerialization.MessageTypes.Next.Parameters.QuietZone*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.IsHumanReadable
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.IsHumanReadable
+  id: IsHumanReadable
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: IsHumanReadable
+  nameWithType: Parameters.IsHumanReadable
+  fullName: NextSerialization.MessageTypes.Next.Parameters.IsHumanReadable
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: IsHumanReadable
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 41
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIndicates that the textual representation of the barcode data is also rendered.\n"
+  example: []
+  syntax:
+    content: public string IsHumanReadable { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsHumanReadable As String
+  overload: NextSerialization.MessageTypes.Next.Parameters.IsHumanReadable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.FormattedRatio
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.FormattedRatio
+  id: FormattedRatio
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: FormattedRatio
+  nameWithType: Parameters.FormattedRatio
+  fullName: NextSerialization.MessageTypes.Next.Parameters.FormattedRatio
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: FormattedRatio
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 61
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe differenc of width of the thin and thick bars on an I2 of 5 barcode type.\n"
+  example: []
+  syntax:
+    content: public string FormattedRatio { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormattedRatio As String
+  overload: NextSerialization.MessageTypes.Next.Parameters.FormattedRatio*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.Checksum
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.Checksum
+  id: Checksum
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: Checksum
+  nameWithType: Parameters.Checksum
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Checksum
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Checksum
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 82
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe number located on the far right side of a bar code. The purpose of a check digit is to verify \nthat the information on the barcode has been entered correctly.\n"
+  example: []
+  syntax:
+    content: public string Checksum { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Checksum As String
+  overload: NextSerialization.MessageTypes.Next.Parameters.Checksum*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.Encoding
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.Encoding
+  id: Encoding
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: Parameters.Encoding
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Encoding
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Encoding
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 101
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nSpecifies the type of encoding for the barcode.\n"
+  example: []
+  syntax:
+    content: public BarcodeEncoding Encoding { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+    content.vb: Public Property Encoding As BarcodeEncoding
+  overload: NextSerialization.MessageTypes.Next.Parameters.Encoding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.CaseSensitive
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.CaseSensitive
+  id: CaseSensitive
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: CaseSensitive
+  nameWithType: Parameters.CaseSensitive
+  fullName: NextSerialization.MessageTypes.Next.Parameters.CaseSensitive
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: CaseSensitive
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 117
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIndicates whether the barcode is case sensitive or not.\n"
+  example: []
+  syntax:
+    content: public string CaseSensitive { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CaseSensitive As String
+  overload: NextSerialization.MessageTypes.Next.Parameters.CaseSensitive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.Width
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.Width
+  id: Width
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Parameters.Width
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Width
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Width
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 137
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe horizontal dimention of the barcode.\n"
+  example: []
+  syntax:
+    content: public int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Width As Integer
+  overload: NextSerialization.MessageTypes.Next.Parameters.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Parameters.Height
+  commentId: P:NextSerialization.MessageTypes.Next.Parameters.Height
+  id: Height
+  parent: NextSerialization.MessageTypes.Next.Parameters
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Parameters.Height
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Height
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Parameters.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Height
+    path: ../MessageTypes/Next/Models/Parameters.cs
+    startLine: 153
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe vertical dimension of the barcode.\n"
+  example: []
+  syntax:
+    content: public int Height { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Height As Integer
+  overload: NextSerialization.MessageTypes.Next.Parameters.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Parameters.Bearer*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.Bearer
+  name: Bearer
+  nameWithType: Parameters.Bearer
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Bearer
+- uid: NextSerialization.MessageTypes.Next.Bearer
+  commentId: T:NextSerialization.MessageTypes.Next.Bearer
+  parent: NextSerialization.MessageTypes.Next
+  name: Bearer
+  nameWithType: Bearer
+  fullName: NextSerialization.MessageTypes.Next.Bearer
+- uid: NextSerialization.MessageTypes.Next.Parameters.MilSize*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.MilSize
+  name: MilSize
+  nameWithType: Parameters.MilSize
+  fullName: NextSerialization.MessageTypes.Next.Parameters.MilSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: NextSerialization.MessageTypes.Next.Parameters.QuietZone*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.QuietZone
+  name: QuietZone
+  nameWithType: Parameters.QuietZone
+  fullName: NextSerialization.MessageTypes.Next.Parameters.QuietZone
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: NextSerialization.MessageTypes.Next.Parameters.IsHumanReadable*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.IsHumanReadable
+  name: IsHumanReadable
+  nameWithType: Parameters.IsHumanReadable
+  fullName: NextSerialization.MessageTypes.Next.Parameters.IsHumanReadable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.Parameters.FormattedRatio*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.FormattedRatio
+  name: FormattedRatio
+  nameWithType: Parameters.FormattedRatio
+  fullName: NextSerialization.MessageTypes.Next.Parameters.FormattedRatio
+- uid: NextSerialization.MessageTypes.Next.Parameters.Checksum*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.Checksum
+  name: Checksum
+  nameWithType: Parameters.Checksum
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Checksum
+- uid: NextSerialization.MessageTypes.Next.Parameters.Encoding*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.Encoding
+  name: Encoding
+  nameWithType: Parameters.Encoding
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Encoding
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: BarcodeEncoding
+  nameWithType: BarcodeEncoding
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.Parameters.CaseSensitive*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.CaseSensitive
+  name: CaseSensitive
+  nameWithType: Parameters.CaseSensitive
+  fullName: NextSerialization.MessageTypes.Next.Parameters.CaseSensitive
+- uid: NextSerialization.MessageTypes.Next.Parameters.Width*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.Width
+  name: Width
+  nameWithType: Parameters.Width
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Width
+- uid: NextSerialization.MessageTypes.Next.Parameters.Height*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Parameters.Height
+  name: Height
+  nameWithType: Parameters.Height
+  fullName: NextSerialization.MessageTypes.Next.Parameters.Height

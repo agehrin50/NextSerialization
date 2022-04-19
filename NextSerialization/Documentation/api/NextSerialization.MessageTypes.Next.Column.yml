@@ -1,0 +1,442 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Column
+  commentId: T:NextSerialization.MessageTypes.Next.Column
+  id: Column
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.Column.Name
+  - NextSerialization.MessageTypes.Next.Column.Value
+  langs:
+  - csharp
+  - vb
+  name: Column
+  nameWithType: Column
+  fullName: NextSerialization.MessageTypes.Next.Column
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Column.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Column
+    path: ../MessageTypes/Next/Models/Column.cs
+    startLine: 6
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nRepresents a database or CSV column of data.\n"
+  example: []
+  syntax:
+    content: public class Column
+    content.vb: Public Class Column
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.Column.Name
+  commentId: P:NextSerialization.MessageTypes.Next.Column.Name
+  id: Name
+  parent: NextSerialization.MessageTypes.Next.Column
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Column.Name
+  fullName: NextSerialization.MessageTypes.Next.Column.Name
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Column.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Name
+    path: ../MessageTypes/Next/Models/Column.cs
+    startLine: 12
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe database name for the column or the CSV/Excel column heading.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: NextSerialization.MessageTypes.Next.Column.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Column.Value
+  commentId: P:NextSerialization.MessageTypes.Next.Column.Value
+  id: Value
+  parent: NextSerialization.MessageTypes.Next.Column
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Column.Value
+  fullName: NextSerialization.MessageTypes.Next.Column.Value
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Column.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Value
+    path: ../MessageTypes/Next/Models/Column.cs
+    startLine: 20
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe value from a row in the <xref href=\"NextSerialization.MessageTypes.Next.Column\" data-throw-if-not-resolved=\"false\"></xref> to use as the default value to\ndisplay on the message surface.  Each time the message prints, the value from the \nnext row of data will be rendered.\n"
+  example: []
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: NextSerialization.MessageTypes.Next.Column.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Column.Name*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Column.Name
+  name: Name
+  nameWithType: Column.Name
+  fullName: NextSerialization.MessageTypes.Next.Column.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.Column
+  commentId: T:NextSerialization.MessageTypes.Next.Column
+  name: Column
+  nameWithType: Column
+  fullName: NextSerialization.MessageTypes.Next.Column
+- uid: NextSerialization.MessageTypes.Next.Column.Value*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Column.Value
+  name: Value
+  nameWithType: Column.Value
+  fullName: NextSerialization.MessageTypes.Next.Column.Value

@@ -1,68 +1,74 @@
-﻿<xs:schema attributeFormDefault="unqualified"
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           attributeFormDefault="unqualified"
            elementFormDefault="qualified"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="ProductObject">
         <xs:complexType>
             <xs:sequence>
-                <xs:element type="xs:string"
-                            name="Margin"/>
+                <xs:element name="Margin" />
                 <xs:element name="Box">
                     <xs:complexType>
-                        <xs:simpleContent>
-                            <xs:extension base="xs:string">
-                                <xs:attribute type="xs:float"
-                                              name="Width"/>
-                                <xs:attribute type="xs:float"
-                                              name="Length"/>
-                                <xs:attribute type="xs:float"
-                                              name="Height"/>
-                            </xs:extension>
-                        </xs:simpleContent>
+                        <xs:attribute name="Width"
+                                      type="xs:decimal"
+                                      use="required" />
+                        <xs:attribute name="Length"
+                                      type="xs:decimal"
+                                      use="required" />
+                        <xs:attribute name="Height"
+                                      type="xs:decimal"
+                                      use="required" />
                     </xs:complexType>
                 </xs:element>
                 <xs:element name="Variables">
                     <xs:complexType>
                         <xs:sequence>
+                            <xs:element name="Comm">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Comm">
+                                            <xs:complexType>
+                                                <xs:attribute name="Key"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="Value"
+                                                              type="xs:string"
+                                                              use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name="DataSet">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="DataSetObject"
-                                                    maxOccurs="unbounded"
-                                                    minOccurs="0">
+                                        <xs:element maxOccurs="unbounded"
+                                                    name="DataSetObject">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="DisplayColumns">
                                                         <xs:complexType>
-                                                            <xs:choice maxOccurs="unbounded"
-                                                                       minOccurs="0">
-                                                                <xs:element name="Column">
+                                                            <xs:sequence>
+                                                                <xs:element maxOccurs="unbounded"
+                                                                            name="Column">
                                                                     <xs:complexType>
-                                                                        <xs:simpleContent>
-                                                                            <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:string"
-                                                                                              name="Name"
-                                                                                              use="optional"/>
-                                                                            </xs:extension>
-                                                                        </xs:simpleContent>
+                                                                        <xs:attribute name="Name"
+                                                                                      type="xs:string"
+                                                                                      use="required" />
                                                                     </xs:complexType>
                                                                 </xs:element>
-                                                            </xs:choice>
+                                                            </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
                                                     <xs:element name="DataColumns">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="Column"
-                                                                            maxOccurs="unbounded"
-                                                                            minOccurs="0">
+                                                                <xs:element maxOccurs="unbounded"
+                                                                            name="Column">
                                                                     <xs:complexType>
-                                                                        <xs:simpleContent>
-                                                                            <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:string"
-                                                                                              name="Name"
-                                                                                              use="optional"/>
-                                                                            </xs:extension>
-                                                                        </xs:simpleContent>
+                                                                        <xs:attribute name="Name"
+                                                                                      type="xs:string"
+                                                                                      use="required" />
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                             </xs:sequence>
@@ -71,38 +77,33 @@
                                                     <xs:element name="ColumnValues">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="Column"
-                                                                            maxOccurs="unbounded"
-                                                                            minOccurs="0">
+                                                                <xs:element maxOccurs="unbounded"
+                                                                            name="Column">
                                                                     <xs:complexType>
-                                                                        <xs:simpleContent>
-                                                                            <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:string"
-                                                                                              name="Name"
-                                                                                              use="optional"/>
-                                                                                <xs:attribute type="xs:string"
-                                                                                              name="Value"
-                                                                                              use="optional"/>
-                                                                            </xs:extension>
-                                                                        </xs:simpleContent>
+                                                                        <xs:attribute name="Name"
+                                                                                      type="xs:string"
+                                                                                      use="required" />
+                                                                        <xs:attribute name="Value"
+                                                                                      type="xs:string"
+                                                                                      use="optional" />
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
-                                                <xs:attribute type="xs:string"
-                                                              name="Name"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="TableName"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="DataConnection"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="ID"
-                                                              use="optional"/>
+                                                <xs:attribute name="Name"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="TableName"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="DataConnection"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="ID"
+                                                              type="xs:string"
+                                                              use="required" />
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
@@ -111,303 +112,294 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="Panel"
-                            maxOccurs="unbounded"
-                            minOccurs="0">
-                    <xs:complexType mixed="true">
-                        <xs:sequence>
-                            <xs:element name="Head"
-                                        maxOccurs="unbounded"
-                                        minOccurs="0">
+                <xs:element maxOccurs="unbounded"
+                            name="Panel">
+                    <xs:complexType>
+                        <xs:sequence minOccurs="0">
+                            <xs:element maxOccurs="unbounded"
+                                        name="Head">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="FieldObject"
-                                                    maxOccurs="unbounded"
-                                                    minOccurs="0">
-                                            <xs:complexType mixed="true">
-                                                <xs:sequence>
-                                                    <xs:element name="Parameters"
-                                                                minOccurs="0">
-                                                        <xs:complexType mixed="true">
-                                                            <xs:sequence>
-                                                                <xs:element name="Bearer"
-                                                                            minOccurs="0">
+                                        <xs:element maxOccurs="unbounded"
+                                                    name="FieldObject">
+                                            <xs:complexType>
+                                                <xs:sequence minOccurs="0">
+                                                    <xs:element minOccurs="0"
+                                                                name="LineThickness">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="Width"
+                                                                          type="xs:decimal"
+                                                                          use="required" />
+                                                            <xs:attribute name="Height"
+                                                                          type="xs:decimal"
+                                                                          use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0"
+                                                                name="Parameters">
+                                                        <xs:complexType>
+                                                            <xs:sequence minOccurs="0">
+                                                                <xs:element name="Bearer">
                                                                     <xs:complexType>
-                                                                        <xs:simpleContent>
-                                                                            <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:float"
-                                                                                              name="Width"
-                                                                                              use="optional"/>
-                                                                                <xs:attribute type="xs:float"
-                                                                                              name="Height"
-                                                                                              use="optional"/>
-                                                                            </xs:extension>
-                                                                        </xs:simpleContent>
+                                                                        <xs:attribute name="Width"
+                                                                                      type="xs:decimal"
+                                                                                      use="required" />
+                                                                        <xs:attribute name="Height"
+                                                                                      type="xs:decimal"
+                                                                                      use="optional" />
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                             </xs:sequence>
-                                                            <xs:attribute type="xs:byte"
-                                                                          name="MilSize"
-                                                                          use="optional"/>
-                                                            <xs:attribute type="xs:float"
-                                                                          name="QuietZone"
-                                                                          use="optional"/>
-                                                            <xs:attribute type="xs:string"
-                                                                          name="IsHumanReadable"
-                                                                          use="optional"/>
-                                                            <xs:attribute type="xs:float"
-                                                                          name="Ratio"
-                                                                          use="optional"/>
-                                                            <xs:attribute type="xs:string"
-                                                                          name="Checksum"
-                                                                          use="optional"/>
-                                                            <xs:attribute type="xs:string"
-                                                                          name="Encoding"
-                                                                          use="optional"/>
-                                                            <xs:attribute type="xs:string"
-                                                                          name="CaseSensitive"
-                                                                          use="optional"/>
-                                                            <xs:attribute type="xs:byte"
-                                                                          name="Width"
-                                                                          use="optional"/>
-                                                            <xs:attribute type="xs:byte"
-                                                                          name="Height"
-                                                                          use="optional"/>
+                                                            <xs:attribute name="MilSize"
+                                                                          type="xs:unsignedByte"
+                                                                          use="required" />
+                                                            <xs:attribute name="QuietZone"
+                                                                          type="xs:decimal"
+                                                                          use="required" />
+                                                            <xs:attribute name="IsHumanReadable"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Ratio"
+                                                                          type="xs:decimal"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Checksum"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Encoding"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="CaseSensitive"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Width"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Height"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="Font"
-                                                                minOccurs="0">
+                                                    <xs:element minOccurs="0"
+                                                                name="Font">
                                                         <xs:complexType>
-                                                            <xs:simpleContent>
-                                                                <xs:extension base="xs:string">
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="Family"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="Style"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:byte"
-                                                                                  name="Width"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:byte"
-                                                                                  name="Height"
-                                                                                  use="optional"/>
-                                                                </xs:extension>
-                                                            </xs:simpleContent>
+                                                            <xs:attribute name="Family"
+                                                                          type="xs:string"
+                                                                          use="required" />
+                                                            <xs:attribute name="Style"
+                                                                          type="xs:string"
+                                                                          use="required" />
+                                                            <xs:attribute name="Width"
+                                                                          type="xs:unsignedByte"
+                                                                          use="required" />
+                                                            <xs:attribute name="Height"
+                                                                          type="xs:unsignedByte"
+                                                                          use="required" />
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="FieldObject"
+                                                    <xs:element minOccurs="0"
                                                                 maxOccurs="unbounded"
-                                                                minOccurs="0">
+                                                                name="FieldObject">
                                                         <xs:complexType>
-                                                            <xs:simpleContent>
-                                                                <xs:extension base="xs:string">
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="Data"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:short"
-                                                                                  name="AI"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="Regex"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="FNC1"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="Source"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="DataSetName"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="DataColumnName"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="DefaultPreview"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:byte"
-                                                                                  name="StartCount"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:short"
-                                                                                  name="StopCount"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:byte"
-                                                                                  name="Increment"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:byte"
-                                                                                  name="NumberOfDigits"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="PromptText"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:byte"
-                                                                                  name="Length"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:string"
-                                                                                  name="Format"
-                                                                                  use="optional"/>
-                                                                </xs:extension>
-                                                            </xs:simpleContent>
-                                                        </xs:complexType>
-                                                    </xs:element>
-                                                    <xs:element name="LineThickness"
-                                                                minOccurs="0">
-                                                        <xs:complexType>
-                                                            <xs:simpleContent>
-                                                                <xs:extension base="xs:string">
-                                                                    <xs:attribute type="xs:float"
-                                                                                  name="Width"
-                                                                                  use="optional"/>
-                                                                    <xs:attribute type="xs:float"
-                                                                                  name="Height"
-                                                                                  use="optional"/>
-                                                                </xs:extension>
-                                                            </xs:simpleContent>
+                                                            <xs:attribute name="Data"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="AI"
+                                                                          type="xs:unsignedShort"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Regex"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="FNC1"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Source"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="DataSetName"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="DataColumnName"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="DefaultPreview"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="StartCount"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="StopCount"
+                                                                          type="xs:unsignedShort"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Increment"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="NumberOfDigits"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="PromptText"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Length"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Format"
+                                                                          type="xs:string"
+                                                                          use="optional" />
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
-                                                <xs:attribute type="xs:float"
-                                                              name="X"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:float"
-                                                              name="Y"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="LockAspectRatio"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="FileName"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:float"
-                                                              name="Width"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:float"
-                                                              name="Height"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="Family"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="Style"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:short"
-                                                              name="StartCount"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:int"
-                                                              name="StopCount"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:byte"
-                                                              name="Increment"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:byte"
-                                                              name="NumberOfDigits"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="Format"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:byte"
-                                                              name="PalletSize"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="AlphaCount"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:byte"
-                                                              name="Days"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:byte"
-                                                              name="Weeks"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:byte"
-                                                              name="Months"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:byte"
-                                                              name="Years"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="Data"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="Source"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="DataSetName"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="DataColumnName"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="DefaultPreview"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="Type"
-                                                              use="optional"/>
-                                                <xs:attribute type="xs:string"
-                                                              name="Orientation"
-                                                              use="optional"/>
+                                                <xs:attribute name="X"
+                                                              type="xs:decimal"
+                                                              use="required" />
+                                                <xs:attribute name="Y"
+                                                              type="xs:decimal"
+                                                              use="required" />
+                                                <xs:attribute name="LockAspectRatio"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="FileName"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Width"
+                                                              type="xs:decimal"
+                                                              use="optional" />
+                                                <xs:attribute name="Height"
+                                                              type="xs:decimal"
+                                                              use="required" />
+                                                <xs:attribute name="Family"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Style"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="StartCount"
+                                                              type="xs:unsignedShort"
+                                                              use="optional" />
+                                                <xs:attribute name="StopCount"
+                                                              type="xs:unsignedInt"
+                                                              use="optional" />
+                                                <xs:attribute name="Increment"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="NumberOfDigits"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Format"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="PalletSize"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="AlphaCount"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Days"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Weeks"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Months"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Years"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Type"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Orientation"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Data"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="PromptText"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Length"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Source"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="DataSetName"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="DataColumnName"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="DefaultPreview"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Index"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute type="xs:byte"
-                                                  name="UID"
-                                                  use="optional"/>
-                                    <xs:attribute type="xs:string"
-                                                  name="Name"
-                                                  use="optional"/>
-                                    <xs:attribute type="xs:short"
-                                                  name="Type"
-                                                  use="optional"/>
-                                    <xs:attribute type="xs:float"
-                                                  name="Offset"
-                                                  use="optional"/>
-                                    <xs:attribute type="xs:string"
-                                                  name="Enabled"
-                                                  use="optional"/>
-                                    <xs:attribute type="xs:short"
-                                                  name="DPI"
-                                                  use="optional"/>
+                                    <xs:attribute name="UID"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                    <xs:attribute name="Name"
+                                                  type="xs:string"
+                                                  use="required" />
+                                    <xs:attribute name="Type"
+                                                  type="xs:unsignedShort"
+                                                  use="optional" />
+                                    <xs:attribute name="Offset"
+                                                  type="xs:decimal"
+                                                  use="required" />
+                                    <xs:attribute name="Enabled"
+                                                  type="xs:string"
+                                                  use="required" />
+                                    <xs:attribute name="DPI"
+                                                  type="xs:unsignedShort"
+                                                  use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute type="xs:string"
-                                      name="Name"
-                                      use="optional"/>
+                        <xs:attribute name="Name"
+                                      type="xs:string"
+                                      use="required" />
                     </xs:complexType>
                 </xs:element>
                 <xs:element name="Resources">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="Resource"
-                                        maxOccurs="unbounded"
-                                        minOccurs="0">
+                            <xs:element maxOccurs="unbounded"
+                                        name="Resource">
                                 <xs:complexType>
-                                    <xs:simpleContent>
-                                        <xs:extension base="xs:string">
-                                            <xs:attribute type="xs:string"
-                                                          name="FileName"
-                                                          use="optional"/>
-                                        </xs:extension>
-                                    </xs:simpleContent>
+                                    <xs:attribute name="FileName"
+                                                  type="xs:string"
+                                                  use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
-            <xs:attribute type="xs:string"
-                          name="Name"/>
-            <xs:attribute type="xs:string"
-                          name="ContinuousPrint"/>
-            <xs:attribute type="xs:float"
-                          name="GapBetweenPrint"/>
-            <xs:attribute type="xs:string"
-                          name="UsePrintCount"/>
-            <xs:attribute type="xs:string"
-                          name="TaskType"/>
-            <xs:attribute type="xs:byte"
-                          name="PrintCount"/>
-            <xs:attribute type="xs:short"
-                          name="DPI"/>
+            <xs:attribute name="Name"
+                          type="xs:string"
+                          use="required" />
+            <xs:attribute name="ContinuousPrint"
+                          type="xs:string"
+                          use="required" />
+            <xs:attribute name="GapBetweenPrint"
+                          type="xs:decimal"
+                          use="required" />
+            <xs:attribute name="UsePrintCount"
+                          type="xs:string"
+                          use="required" />
+            <xs:attribute name="TaskType"
+                          type="xs:string"
+                          use="required" />
+            <xs:attribute name="PrintCount"
+                          type="xs:unsignedByte"
+                          use="required" />
+            <xs:attribute name="DPI"
+                          type="xs:unsignedShort"
+                          use="required" />
         </xs:complexType>
     </xs:element>
 </xs:schema>

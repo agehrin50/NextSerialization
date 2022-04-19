@@ -1,0 +1,688 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.DataSource
+  commentId: T:NextSerialization.MessageTypes.Next.DataSource
+  id: DataSource
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.DataSource.ColumnValues
+  - NextSerialization.MessageTypes.Next.DataSource.DataColumns
+  - NextSerialization.MessageTypes.Next.DataSource.DataConnection
+  - NextSerialization.MessageTypes.Next.DataSource.DisplayColumns
+  - NextSerialization.MessageTypes.Next.DataSource.Id
+  - NextSerialization.MessageTypes.Next.DataSource.Name
+  - NextSerialization.MessageTypes.Next.DataSource.TableName
+  langs:
+  - csharp
+  - vb
+  name: DataSource
+  nameWithType: DataSource
+  fullName: NextSerialization.MessageTypes.Next.DataSource
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/DataSource.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DataSource
+    path: ../MessageTypes/Next/Models/DataSource.cs
+    startLine: 8
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nDefines the properties needed to connect to a database, Excel, or CSV file along with the table and \ncolumns to use as the source for data on a <xref href=\"NextSerialization.MessageTypes.Next.VariableField\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: The <xref href="NextSerialization.MessageTypes.Next.DataSource" data-throw-if-not-resolved="false"></xref> class corresponds to the DataSetObject node of the message XML.
+  example: []
+  syntax:
+    content: public class DataSource
+    content.vb: Public Class DataSource
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.DataSource.DisplayColumns
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.DisplayColumns
+  id: DisplayColumns
+  parent: NextSerialization.MessageTypes.Next.DataSource
+  langs:
+  - csharp
+  - vb
+  name: DisplayColumns
+  nameWithType: DataSource.DisplayColumns
+  fullName: NextSerialization.MessageTypes.Next.DataSource.DisplayColumns
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/DataSource.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DisplayColumns
+    path: ../MessageTypes/Next/Models/DataSource.cs
+    startLine: 14
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe data columns displayed to the user when creating a <xref href=\"NextSerialization.MessageTypes.Next.VariableField\" data-throw-if-not-resolved=\"false\"></xref> element.\n"
+  example: []
+  syntax:
+    content: public Column[] DisplayColumns { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Column[]
+    content.vb: Public Property DisplayColumns As Column()
+  overload: NextSerialization.MessageTypes.Next.DataSource.DisplayColumns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.DataSource.DataColumns
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.DataColumns
+  id: DataColumns
+  parent: NextSerialization.MessageTypes.Next.DataSource
+  langs:
+  - csharp
+  - vb
+  name: DataColumns
+  nameWithType: DataSource.DataColumns
+  fullName: NextSerialization.MessageTypes.Next.DataSource.DataColumns
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/DataSource.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DataColumns
+    path: ../MessageTypes/Next/Models/DataSource.cs
+    startLine: 21
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe data columns available to draw data from.\n"
+  example: []
+  syntax:
+    content: public Column[] DataColumns { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Column[]
+    content.vb: Public Property DataColumns As Column()
+  overload: NextSerialization.MessageTypes.Next.DataSource.DataColumns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.DataSource.ColumnValues
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.ColumnValues
+  id: ColumnValues
+  parent: NextSerialization.MessageTypes.Next.DataSource
+  langs:
+  - csharp
+  - vb
+  name: ColumnValues
+  nameWithType: DataSource.ColumnValues
+  fullName: NextSerialization.MessageTypes.Next.DataSource.ColumnValues
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/DataSource.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: ColumnValues
+    path: ../MessageTypes/Next/Models/DataSource.cs
+    startLine: 28
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe default columns and values displayed to the user.\n"
+  example: []
+  syntax:
+    content: public Column[] ColumnValues { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Column[]
+    content.vb: Public Property ColumnValues As Column()
+  overload: NextSerialization.MessageTypes.Next.DataSource.ColumnValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.DataSource.Name
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.Name
+  id: Name
+  parent: NextSerialization.MessageTypes.Next.DataSource
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DataSource.Name
+  fullName: NextSerialization.MessageTypes.Next.DataSource.Name
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/DataSource.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Name
+    path: ../MessageTypes/Next/Models/DataSource.cs
+    startLine: 35
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe database or spreadsheet name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: NextSerialization.MessageTypes.Next.DataSource.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.DataSource.TableName
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.TableName
+  id: TableName
+  parent: NextSerialization.MessageTypes.Next.DataSource
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: DataSource.TableName
+  fullName: NextSerialization.MessageTypes.Next.DataSource.TableName
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/DataSource.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: TableName
+    path: ../MessageTypes/Next/Models/DataSource.cs
+    startLine: 41
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe name of the database table or Excel sheet.\n"
+  example: []
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: NextSerialization.MessageTypes.Next.DataSource.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.DataSource.DataConnection
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.DataConnection
+  id: DataConnection
+  parent: NextSerialization.MessageTypes.Next.DataSource
+  langs:
+  - csharp
+  - vb
+  name: DataConnection
+  nameWithType: DataSource.DataConnection
+  fullName: NextSerialization.MessageTypes.Next.DataSource.DataConnection
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/DataSource.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DataConnection
+    path: ../MessageTypes/Next/Models/DataSource.cs
+    startLine: 50
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nAn identifier used to indicate the connection information to use.\n"
+  remarks: "\nThe database connection information is stored in a separate file.\n"
+  example: []
+  syntax:
+    content: public string DataConnection { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataConnection As String
+  overload: NextSerialization.MessageTypes.Next.DataSource.DataConnection*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.DataSource.Id
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.Id
+  id: Id
+  parent: NextSerialization.MessageTypes.Next.DataSource
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DataSource.Id
+  fullName: NextSerialization.MessageTypes.Next.DataSource.Id
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/DataSource.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Id
+    path: ../MessageTypes/Next/Models/DataSource.cs
+    startLine: 56
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nA unique (GUID) identifier for the data source.\n"
+  example: []
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: NextSerialization.MessageTypes.Next.DataSource.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next.VariableField
+  commentId: T:NextSerialization.MessageTypes.Next.VariableField
+  name: VariableField
+  nameWithType: VariableField
+  fullName: NextSerialization.MessageTypes.Next.VariableField
+- uid: NextSerialization.MessageTypes.Next.DataSource
+  commentId: T:NextSerialization.MessageTypes.Next.DataSource
+  name: DataSource
+  nameWithType: DataSource
+  fullName: NextSerialization.MessageTypes.Next.DataSource
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.DataSource.DisplayColumns*
+  commentId: Overload:NextSerialization.MessageTypes.Next.DataSource.DisplayColumns
+  name: DisplayColumns
+  nameWithType: DataSource.DisplayColumns
+  fullName: NextSerialization.MessageTypes.Next.DataSource.DisplayColumns
+- uid: NextSerialization.MessageTypes.Next.Column[]
+  isExternal: true
+  name: Column[]
+  nameWithType: Column[]
+  fullName: NextSerialization.MessageTypes.Next.Column[]
+  nameWithType.vb: Column()
+  fullName.vb: NextSerialization.MessageTypes.Next.Column()
+  name.vb: Column()
+  spec.csharp:
+  - uid: NextSerialization.MessageTypes.Next.Column
+    name: Column
+    nameWithType: Column
+    fullName: NextSerialization.MessageTypes.Next.Column
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: NextSerialization.MessageTypes.Next.Column
+    name: Column
+    nameWithType: Column
+    fullName: NextSerialization.MessageTypes.Next.Column
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: NextSerialization.MessageTypes.Next.DataSource.DataColumns*
+  commentId: Overload:NextSerialization.MessageTypes.Next.DataSource.DataColumns
+  name: DataColumns
+  nameWithType: DataSource.DataColumns
+  fullName: NextSerialization.MessageTypes.Next.DataSource.DataColumns
+- uid: NextSerialization.MessageTypes.Next.DataSource.ColumnValues*
+  commentId: Overload:NextSerialization.MessageTypes.Next.DataSource.ColumnValues
+  name: ColumnValues
+  nameWithType: DataSource.ColumnValues
+  fullName: NextSerialization.MessageTypes.Next.DataSource.ColumnValues
+- uid: NextSerialization.MessageTypes.Next.DataSource.Name*
+  commentId: Overload:NextSerialization.MessageTypes.Next.DataSource.Name
+  name: Name
+  nameWithType: DataSource.Name
+  fullName: NextSerialization.MessageTypes.Next.DataSource.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.DataSource.TableName*
+  commentId: Overload:NextSerialization.MessageTypes.Next.DataSource.TableName
+  name: TableName
+  nameWithType: DataSource.TableName
+  fullName: NextSerialization.MessageTypes.Next.DataSource.TableName
+- uid: NextSerialization.MessageTypes.Next.DataSource.DataConnection*
+  commentId: Overload:NextSerialization.MessageTypes.Next.DataSource.DataConnection
+  name: DataConnection
+  nameWithType: DataSource.DataConnection
+  fullName: NextSerialization.MessageTypes.Next.DataSource.DataConnection
+- uid: NextSerialization.MessageTypes.Next.DataSource.Id*
+  commentId: Overload:NextSerialization.MessageTypes.Next.DataSource.Id
+  name: Id
+  nameWithType: DataSource.Id
+  fullName: NextSerialization.MessageTypes.Next.DataSource.Id

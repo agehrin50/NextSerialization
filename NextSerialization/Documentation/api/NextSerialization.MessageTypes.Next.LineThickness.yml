@@ -1,0 +1,437 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.LineThickness
+  commentId: T:NextSerialization.MessageTypes.Next.LineThickness
+  id: LineThickness
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.LineThickness.Height
+  - NextSerialization.MessageTypes.Next.LineThickness.Width
+  langs:
+  - csharp
+  - vb
+  name: LineThickness
+  nameWithType: LineThickness
+  fullName: NextSerialization.MessageTypes.Next.LineThickness
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/LineThickness.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: LineThickness
+    path: ../MessageTypes/Next/Models/LineThickness.cs
+    startLine: 7
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nSpecifies the stroke weight of a shape element.\n"
+  example: []
+  syntax:
+    content: public class LineThickness
+    content.vb: Public Class LineThickness
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.LineThickness.Width
+  commentId: P:NextSerialization.MessageTypes.Next.LineThickness.Width
+  id: Width
+  parent: NextSerialization.MessageTypes.Next.LineThickness
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: LineThickness.Width
+  fullName: NextSerialization.MessageTypes.Next.LineThickness.Width
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/LineThickness.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Width
+    path: ../MessageTypes/Next/Models/LineThickness.cs
+    startLine: 13
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe horizontal stroke weight.\n"
+  example: []
+  syntax:
+    content: public decimal Width { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Width As Decimal
+  overload: NextSerialization.MessageTypes.Next.LineThickness.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.LineThickness.Height
+  commentId: P:NextSerialization.MessageTypes.Next.LineThickness.Height
+  id: Height
+  parent: NextSerialization.MessageTypes.Next.LineThickness
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: LineThickness.Height
+  fullName: NextSerialization.MessageTypes.Next.LineThickness.Height
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/LineThickness.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Height
+    path: ../MessageTypes/Next/Models/LineThickness.cs
+    startLine: 19
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe vertical stroke weight.\n"
+  example: []
+  syntax:
+    content: public decimal Height { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Height As Decimal
+  overload: NextSerialization.MessageTypes.Next.LineThickness.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.LineThickness.Width*
+  commentId: Overload:NextSerialization.MessageTypes.Next.LineThickness.Width
+  name: Width
+  nameWithType: LineThickness.Width
+  fullName: NextSerialization.MessageTypes.Next.LineThickness.Width
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: NextSerialization.MessageTypes.Next.LineThickness.Height*
+  commentId: Overload:NextSerialization.MessageTypes.Next.LineThickness.Height
+  name: Height
+  nameWithType: LineThickness.Height
+  fullName: NextSerialization.MessageTypes.Next.LineThickness.Height

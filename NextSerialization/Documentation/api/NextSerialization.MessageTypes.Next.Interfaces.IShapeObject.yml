@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+  id: IShapeObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  children:
+  - NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.LineThickness
+  - NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.Orientation
+  langs:
+  - csharp
+  - vb
+  name: IShapeObject
+  nameWithType: IShapeObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+  type: Interface
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IShapeObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: IShapeObject
+    path: ../MessageTypes/Next/Interfaces/IShapeObject.cs
+    startLine: 5
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nDefines properties that describe shapes, like lines and rectangles, to be rendered on the message.\n"
+  example: []
+  syntax:
+    content: public interface IShapeObject
+    content.vb: Public Interface IShapeObject
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.Orientation
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.Orientation
+  id: Orientation
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+  langs:
+  - csharp
+  - vb
+  name: Orientation
+  nameWithType: IShapeObject.Orientation
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.Orientation
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IShapeObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Orientation
+    path: ../MessageTypes/Next/Interfaces/IShapeObject.cs
+    startLine: 10
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nIndicates whether the shape is oriented horizontally or vertically.\n"
+  example: []
+  syntax:
+    content: string Orientation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Orientation As String
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.Orientation*
+  modifiers.csharp:
+  - get
+  - set
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.LineThickness
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.LineThickness
+  id: LineThickness
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+  langs:
+  - csharp
+  - vb
+  name: LineThickness
+  nameWithType: IShapeObject.LineThickness
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.LineThickness
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IShapeObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: LineThickness
+    path: ../MessageTypes/Next/Interfaces/IShapeObject.cs
+    startLine: 15
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nThe thickness of the bounding lines of the shape.\n"
+  example: []
+  syntax:
+    content: LineThickness LineThickness { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.LineThickness
+    content.vb: Property LineThickness As LineThickness
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.LineThickness*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  commentId: N:NextSerialization.MessageTypes.Next.Interfaces
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  nameWithType: NextSerialization.MessageTypes.Next.Interfaces
+  fullName: NextSerialization.MessageTypes.Next.Interfaces
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.Orientation*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.Orientation
+  name: Orientation
+  nameWithType: IShapeObject.Orientation
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.Orientation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.LineThickness*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.LineThickness
+  name: LineThickness
+  nameWithType: IShapeObject.LineThickness
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject.LineThickness
+- uid: NextSerialization.MessageTypes.Next.LineThickness
+  commentId: T:NextSerialization.MessageTypes.Next.LineThickness
+  parent: NextSerialization.MessageTypes.Next
+  name: LineThickness
+  nameWithType: LineThickness
+  fullName: NextSerialization.MessageTypes.Next.LineThickness
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next

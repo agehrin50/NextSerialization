@@ -12,6 +12,10 @@
          Length="10.500"
          Height="18.000" />
     <Variables>
+        <Comm>
+            <Comm Key="Com1"
+                  Value="COM1 Data" />
+        </Comm>
         <DataSet>
             <DataSetObject Name="Northwind Access"
                            TableName="Products"
@@ -159,12 +163,12 @@
                          Width="29"
                          Height="29" />
             <FieldObject xsi:type="LogoFieldObject"
-                         X="8.812"
-                         Y="0.188"
+                         X="8.586"
+                         Y="0.017"
                          LockAspectRatio="True"
                          FileName="384 Channel Check Pattern.bmp"
-                         Width="1.521"
-                         Height="1.596" />
+                         Width="1.880"
+                         Height="1.973" />
             <FieldObject xsi:type="CountFieldObject"
                          X="1.487"
                          Y="1.425"
@@ -189,8 +193,8 @@
                          Width="29"
                          Height="29" />
             <FieldObject xsi:type="DateTimeFieldObject"
-                         X="5.615"
-                         Y="1.406"
+                         X="5.735"
+                         Y="1.391"
                          Format="[dd][MM][yy] [HH][mm][ss]"
                          Days="1"
                          Weeks="1"
@@ -201,19 +205,6 @@
                          Style="Regular"
                          Width="29"
                          Height="29" />
-            <FieldObject xsi:type="VarFieldObject"
-                         X="0.116"
-                         Y="0.062"
-                         LockAspectRatio="True"
-                         Data="Northwind Traders Chai"
-                         Family="Avenir LT Std"
-                         Style="45 Book"
-                         Width="30"
-                         Height="30"
-                         Source="Database"
-                         DataSetName="msg locations set"
-                         DataColumnName="Product Name"
-                         DefaultPreview="[No record]" />
         </Head>
         <Head UID="1"
               Name="PrintHead2"
@@ -221,8 +212,8 @@
               Enabled="True"
               DPI="300">
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="5.152"
-                         Y="1.188"
+                         X="5.122"
+                         Y="1.613"
                          LockAspectRatio="True"
                          Type="GTIN-14"
                          Height="1.094">
@@ -242,8 +233,8 @@
                              Data="00000000000000" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="2.624"
-                         Y="1.264"
+                         X="2.594"
+                         Y="1.689"
                          LockAspectRatio="True"
                          Type="I2of5"
                          Height="0.875">
@@ -262,8 +253,8 @@
                              Data="1234567890" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="0.263"
-                         Y="1.297"
+                         X="0.233"
+                         Y="1.722"
                          LockAspectRatio="True"
                          Height="0.839">
                 <Parameters MilSize="20"
@@ -279,8 +270,8 @@
                              Data="000000000000" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="0.144"
-                         Y="2.310"
+                         X="0.114"
+                         Y="2.485"
                          LockAspectRatio="True"
                          Type="GS1-QrCode"
                          Height="1.750">
@@ -294,8 +285,8 @@
                              Data="1234567890123" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="0.158"
-                         Y="0.124"
+                         X="0.128"
+                         Y="0.549"
                          LockAspectRatio="True"
                          Type="GS1-Code128"
                          Height="1.002">
@@ -315,8 +306,8 @@
                              Data="0000000000" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="2.682"
-                         Y="0.113"
+                         X="2.652"
+                         Y="0.538"
                          LockAspectRatio="True"
                          Type="EAN13"
                          Height="0.995">
@@ -333,8 +324,8 @@
                              Data="0000000000000" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="6.739"
-                         Y="0.137"
+                         X="6.709"
+                         Y="0.562"
                          LockAspectRatio="True"
                          Type="Code128"
                          Height="0.893">
@@ -351,8 +342,8 @@
                              Data="0000000000" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="4.751"
-                         Y="0.094"
+                         X="4.721"
+                         Y="0.519"
                          LockAspectRatio="True"
                          Type="Code128"
                          Height="1.011">
@@ -369,15 +360,15 @@
                              Data="0000000000" />
             </FieldObject>
             <FieldObject xsi:type="LineFieldObject"
-                         X="9.866"
-                         Y="1.121"
+                         X="9.836"
+                         Y="1.546"
                          LockAspectRatio="True"
                          Width="0.448"
                          Height="0.988"
                          Orientation="Vertical" />
             <FieldObject xsi:type="RectangleFieldObject"
-                         X="9.182"
-                         Y="0.177"
+                         X="9.152"
+                         Y="0.602"
                          LockAspectRatio="True"
                          Width="1.004"
                          Height="0.502">
@@ -385,8 +376,8 @@
                                Height="0.100" />
             </FieldObject>
             <FieldObject xsi:type="RectangleFieldObject"
-                         X="9.036"
-                         Y="1.109"
+                         X="9.006"
+                         Y="1.534"
                          LockAspectRatio="True"
                          Width="0.500"
                          Height="1.000"
@@ -395,8 +386,8 @@
                                Height="0.100" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="4.156"
-                         Y="2.344"
+                         X="4.126"
+                         Y="2.519"
                          LockAspectRatio="True"
                          Type="QrCode"
                          Height="1.750">
@@ -408,8 +399,8 @@
                              Data="Diagraph Test" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="2.385"
-                         Y="2.562"
+                         X="2.355"
+                         Y="2.737"
                          LockAspectRatio="True"
                          Type="GS1-DataMatrix"
                          Height="1.750">
@@ -434,8 +425,8 @@
                              DefaultPreview="[No record]" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="8.427"
-                         Y="2.292"
+                         X="8.397"
+                         Y="2.467"
                          LockAspectRatio="True"
                          Type="GS1-QrCode"
                          Height="1.750">
@@ -477,8 +468,8 @@
                              DefaultPreview="[No record]" />
             </FieldObject>
             <FieldObject xsi:type="BarcodeFieldObject"
-                         X="6.531"
-                         Y="2.562"
+                         X="6.501"
+                         Y="2.737"
                          LockAspectRatio="True"
                          Type="DataMatrix"
                          Height="1.750">
@@ -492,6 +483,52 @@
                 <FieldObject xsi:type="DateTimeFieldObject"
                              Format="[dd][MM][yy] [HH][mm][ss]" />
             </FieldObject>
+            <FieldObject xsi:type="VarFieldObject"
+                         X="0.295"
+                         Y="0.035"
+                         LockAspectRatio="True"
+                         Data="VarField Data"
+                         Family="Arial"
+                         Style="Regular"
+                         Width="29"
+                         Height="29"
+                         PromptText="VarField Prompt Text"
+                         Length="15" />
+            <FieldObject xsi:type="VarFieldObject"
+                         X="2.815"
+                         Y="0.035"
+                         LockAspectRatio="True"
+                         Data="COM1 Data"
+                         Family="Arial"
+                         Style="Regular"
+                         Width="29"
+                         Height="29"
+                         Source="Comm"
+                         Length="10" />
+            <FieldObject xsi:type="VarFieldObject"
+                         X="4.885"
+                         Y="0.035"
+                         LockAspectRatio="True"
+                         Data="Northwind Traders Chai"
+                         Family="Arial"
+                         Style="Regular"
+                         Width="29"
+                         Height="29"
+                         Source="Database"
+                         DataSetName="Northwind Access"
+                         DataColumnName="Product Name"
+                         DefaultPreview="[No record]" />
+            <FieldObject xsi:type="VarFieldObject"
+                         X="9.025"
+                         Y="0.050"
+                         LockAspectRatio="True"
+                         Data="Data 1"
+                         Family="Arial"
+                         Style="Regular"
+                         Width="29"
+                         Height="29"
+                         Source="Data"
+                         Index="1" />
         </Head>
     </Panel>
     <Panel Name="Right" />
@@ -501,6 +538,6 @@
     <Panel Name="Bottom" />
     <Resources>
         <Resource FileName="DiagraphLogoBlack_scaled2444x54.bmp" />
-        <Resource FileName="384 Channel Check Pattern_scaled456x102.bmp" />
+        <Resource FileName="384 Channel Check Pattern_scaled564x126.bmp" />
     </Resources>
 </ProductObject>

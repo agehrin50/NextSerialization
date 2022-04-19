@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  id: NextSerialization.MessageTypes.Next.Enumerations
+  children:
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  - NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  - NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  - NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  - NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  - NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  langs:
+  - csharp
+  - vb
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+  type: Namespace
+  assemblies:
+  - NextSerialization
+references:
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: BarcodeEncoding
+  nameWithType: BarcodeEncoding
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: BarcodeTypes
+  nameWithType: BarcodeTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+- uid: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: FieldOrientation
+  nameWithType: FieldOrientation
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: PrintHeadTypes
+  nameWithType: PrintHeadTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: PrintResolutions
+  nameWithType: PrintResolutions
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+- uid: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: TaskTypes
+  nameWithType: TaskTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+- uid: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: VarFieldSources
+  nameWithType: VarFieldSources
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations

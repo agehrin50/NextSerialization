@@ -1,0 +1,812 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.VariableField
+  commentId: T:NextSerialization.MessageTypes.Next.VariableField
+  id: VariableField
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.VariableField.DataColumnName
+  - NextSerialization.MessageTypes.Next.VariableField.DataSetName
+  - NextSerialization.MessageTypes.Next.VariableField.DefaultPreview
+  - NextSerialization.MessageTypes.Next.VariableField.Index
+  - NextSerialization.MessageTypes.Next.VariableField.Length
+  - NextSerialization.MessageTypes.Next.VariableField.PromptText
+  - NextSerialization.MessageTypes.Next.VariableField.Source
+  langs:
+  - csharp
+  - vb
+  name: VariableField
+  nameWithType: VariableField
+  fullName: NextSerialization.MessageTypes.Next.VariableField
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/VariableField.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: VariableField
+    path: ../MessageTypes/Next/Models/VariableField.cs
+    startLine: 10
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nA textual element whos output is sourced from external data.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class VariableField : TextField, IFieldObject, IFontObject
+    content.vb: >-
+      <Serializable>
+
+      Public Class VariableField
+          Inherits TextField
+          Implements IFieldObject, IFontObject
+  inheritance:
+  - System.Object
+  - NextSerialization.MessageTypes.Next.FieldObject
+  - NextSerialization.MessageTypes.Next.TextField
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  - NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  inheritedMembers:
+  - NextSerialization.MessageTypes.Next.TextField.Family
+  - NextSerialization.MessageTypes.Next.TextField.Style
+  - NextSerialization.MessageTypes.Next.TextField.Data
+  - NextSerialization.MessageTypes.Next.FieldObject.X
+  - NextSerialization.MessageTypes.Next.FieldObject.Y
+  - NextSerialization.MessageTypes.Next.FieldObject.Width
+  - NextSerialization.MessageTypes.Next.FieldObject.Height
+  - NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+  - NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  - NextSerialization.MessageTypes.Next.FieldObject.Ai
+  - NextSerialization.MessageTypes.Next.FieldObject.Regex
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.VariableField.Source
+  commentId: P:NextSerialization.MessageTypes.Next.VariableField.Source
+  id: Source
+  parent: NextSerialization.MessageTypes.Next.VariableField
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: VariableField.Source
+  fullName: NextSerialization.MessageTypes.Next.VariableField.Source
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/VariableField.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Source
+    path: ../MessageTypes/Next/Models/VariableField.cs
+    startLine: 17
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe type of data source (e.g. Database)\n"
+  example: []
+  syntax:
+    content: public VarFieldSources Source { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+    content.vb: Public Property Source As VarFieldSources
+  overload: NextSerialization.MessageTypes.Next.VariableField.Source*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.VariableField.Index
+  commentId: P:NextSerialization.MessageTypes.Next.VariableField.Index
+  id: Index
+  parent: NextSerialization.MessageTypes.Next.VariableField
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: VariableField.Index
+  fullName: NextSerialization.MessageTypes.Next.VariableField.Index
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/VariableField.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Index
+    path: ../MessageTypes/Next/Models/VariableField.cs
+    startLine: 33
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe position of the data in the source.\n"
+  example: []
+  syntax:
+    content: public int Index { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Index As Integer
+  overload: NextSerialization.MessageTypes.Next.VariableField.Index*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.VariableField.DataSetName
+  commentId: P:NextSerialization.MessageTypes.Next.VariableField.DataSetName
+  id: DataSetName
+  parent: NextSerialization.MessageTypes.Next.VariableField
+  langs:
+  - csharp
+  - vb
+  name: DataSetName
+  nameWithType: VariableField.DataSetName
+  fullName: NextSerialization.MessageTypes.Next.VariableField.DataSetName
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/VariableField.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DataSetName
+    path: ../MessageTypes/Next/Models/VariableField.cs
+    startLine: 50
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIdentifies the name of the <xref href=\"NextSerialization.MessageTypes.Next.DataSource\" data-throw-if-not-resolved=\"false\"></xref>.  The value of this attribute must appear as the <xref href=\"NextSerialization.MessageTypes.Next.DataSource.Name\" data-throw-if-not-resolved=\"false\"></xref>\nattribute of one of the DataSetObject XML nodes.\n"
+  example: []
+  syntax:
+    content: public string DataSetName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataSetName As String
+  overload: NextSerialization.MessageTypes.Next.VariableField.DataSetName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.VariableField.DataColumnName
+  commentId: P:NextSerialization.MessageTypes.Next.VariableField.DataColumnName
+  id: DataColumnName
+  parent: NextSerialization.MessageTypes.Next.VariableField
+  langs:
+  - csharp
+  - vb
+  name: DataColumnName
+  nameWithType: VariableField.DataColumnName
+  fullName: NextSerialization.MessageTypes.Next.VariableField.DataColumnName
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/VariableField.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DataColumnName
+    path: ../MessageTypes/Next/Models/VariableField.cs
+    startLine: 56
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIdentifies the <xref href=\"NextSerialization.MessageTypes.Next.Column.Name\" data-throw-if-not-resolved=\"false\"></xref> of the <xref href=\"NextSerialization.MessageTypes.Next.DataSource.DataColumns\" data-throw-if-not-resolved=\"false\"></xref> XML node.\n"
+  example: []
+  syntax:
+    content: public string DataColumnName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataColumnName As String
+  overload: NextSerialization.MessageTypes.Next.VariableField.DataColumnName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.VariableField.DefaultPreview
+  commentId: P:NextSerialization.MessageTypes.Next.VariableField.DefaultPreview
+  id: DefaultPreview
+  parent: NextSerialization.MessageTypes.Next.VariableField
+  langs:
+  - csharp
+  - vb
+  name: DefaultPreview
+  nameWithType: VariableField.DefaultPreview
+  fullName: NextSerialization.MessageTypes.Next.VariableField.DefaultPreview
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/VariableField.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DefaultPreview
+    path: ../MessageTypes/Next/Models/VariableField.cs
+    startLine: 62
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe value from the data to use when displaying the <xref href=\"NextSerialization.MessageTypes.Next.VariableField\" data-throw-if-not-resolved=\"false\"></xref> on the drawing surface.\n"
+  example: []
+  syntax:
+    content: public string DefaultPreview { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultPreview As String
+  overload: NextSerialization.MessageTypes.Next.VariableField.DefaultPreview*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.VariableField.PromptText
+  commentId: P:NextSerialization.MessageTypes.Next.VariableField.PromptText
+  id: PromptText
+  parent: NextSerialization.MessageTypes.Next.VariableField
+  langs:
+  - csharp
+  - vb
+  name: PromptText
+  nameWithType: VariableField.PromptText
+  fullName: NextSerialization.MessageTypes.Next.VariableField.PromptText
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/VariableField.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: PromptText
+    path: ../MessageTypes/Next/Models/VariableField.cs
+    startLine: 68
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe text to display to the user in a variable prompt.\n"
+  example: []
+  syntax:
+    content: public string PromptText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PromptText As String
+  overload: NextSerialization.MessageTypes.Next.VariableField.PromptText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.VariableField.Length
+  commentId: P:NextSerialization.MessageTypes.Next.VariableField.Length
+  id: Length
+  parent: NextSerialization.MessageTypes.Next.VariableField
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: VariableField.Length
+  fullName: NextSerialization.MessageTypes.Next.VariableField.Length
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/VariableField.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Length
+    path: ../MessageTypes/Next/Models/VariableField.cs
+    startLine: 84
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe length of the data.\n"
+  example: []
+  syntax:
+    content: public int Length { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Length As Integer
+  overload: NextSerialization.MessageTypes.Next.VariableField.Length*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: NextSerialization.MessageTypes.Next.FieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.FieldObject
+  parent: NextSerialization.MessageTypes.Next
+  name: FieldObject
+  nameWithType: FieldObject
+  fullName: NextSerialization.MessageTypes.Next.FieldObject
+- uid: NextSerialization.MessageTypes.Next.TextField
+  commentId: T:NextSerialization.MessageTypes.Next.TextField
+  parent: NextSerialization.MessageTypes.Next
+  name: TextField
+  nameWithType: TextField
+  fullName: NextSerialization.MessageTypes.Next.TextField
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  name: IFieldObject
+  nameWithType: IFieldObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  name: IFontObject
+  nameWithType: IFontObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+- uid: NextSerialization.MessageTypes.Next.TextField.Family
+  commentId: P:NextSerialization.MessageTypes.Next.TextField.Family
+  parent: NextSerialization.MessageTypes.Next.TextField
+  name: Family
+  nameWithType: TextField.Family
+  fullName: NextSerialization.MessageTypes.Next.TextField.Family
+- uid: NextSerialization.MessageTypes.Next.TextField.Style
+  commentId: P:NextSerialization.MessageTypes.Next.TextField.Style
+  parent: NextSerialization.MessageTypes.Next.TextField
+  name: Style
+  nameWithType: TextField.Style
+  fullName: NextSerialization.MessageTypes.Next.TextField.Style
+- uid: NextSerialization.MessageTypes.Next.TextField.Data
+  commentId: P:NextSerialization.MessageTypes.Next.TextField.Data
+  parent: NextSerialization.MessageTypes.Next.TextField
+  name: Data
+  nameWithType: TextField.Data
+  fullName: NextSerialization.MessageTypes.Next.TextField.Data
+- uid: NextSerialization.MessageTypes.Next.FieldObject.X
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.X
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: X
+  nameWithType: FieldObject.X
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.X
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Y
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Y
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Y
+  nameWithType: FieldObject.Y
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Y
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Width
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Width
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Width
+  nameWithType: FieldObject.Width
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Width
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Height
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Height
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Height
+  nameWithType: FieldObject.Height
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Height
+- uid: NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: LockAspectRatio
+  nameWithType: FieldObject.LockAspectRatio
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+- uid: NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: FNC1
+  nameWithType: FieldObject.FNC1
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.FNC1
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Ai
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Ai
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Ai
+  nameWithType: FieldObject.Ai
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Ai
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Regex
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Regex
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Regex
+  nameWithType: FieldObject.Regex
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Regex
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  commentId: N:NextSerialization.MessageTypes.Next.Interfaces
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  nameWithType: NextSerialization.MessageTypes.Next.Interfaces
+  fullName: NextSerialization.MessageTypes.Next.Interfaces
+- uid: NextSerialization.MessageTypes.Next.VariableField.Source*
+  commentId: Overload:NextSerialization.MessageTypes.Next.VariableField.Source
+  name: Source
+  nameWithType: VariableField.Source
+  fullName: NextSerialization.MessageTypes.Next.VariableField.Source
+- uid: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: VarFieldSources
+  nameWithType: VarFieldSources
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.VariableField.Index*
+  commentId: Overload:NextSerialization.MessageTypes.Next.VariableField.Index
+  name: Index
+  nameWithType: VariableField.Index
+  fullName: NextSerialization.MessageTypes.Next.VariableField.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: NextSerialization.MessageTypes.Next.DataSource
+  commentId: T:NextSerialization.MessageTypes.Next.DataSource
+  name: DataSource
+  nameWithType: DataSource
+  fullName: NextSerialization.MessageTypes.Next.DataSource
+- uid: NextSerialization.MessageTypes.Next.DataSource.Name
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.Name
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.VariableField.DataSetName*
+  commentId: Overload:NextSerialization.MessageTypes.Next.VariableField.DataSetName
+  name: DataSetName
+  nameWithType: VariableField.DataSetName
+  fullName: NextSerialization.MessageTypes.Next.VariableField.DataSetName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.Column.Name
+  commentId: P:NextSerialization.MessageTypes.Next.Column.Name
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.DataSource.DataColumns
+  commentId: P:NextSerialization.MessageTypes.Next.DataSource.DataColumns
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.VariableField.DataColumnName*
+  commentId: Overload:NextSerialization.MessageTypes.Next.VariableField.DataColumnName
+  name: DataColumnName
+  nameWithType: VariableField.DataColumnName
+  fullName: NextSerialization.MessageTypes.Next.VariableField.DataColumnName
+- uid: NextSerialization.MessageTypes.Next.VariableField
+  commentId: T:NextSerialization.MessageTypes.Next.VariableField
+  name: VariableField
+  nameWithType: VariableField
+  fullName: NextSerialization.MessageTypes.Next.VariableField
+- uid: NextSerialization.MessageTypes.Next.VariableField.DefaultPreview*
+  commentId: Overload:NextSerialization.MessageTypes.Next.VariableField.DefaultPreview
+  name: DefaultPreview
+  nameWithType: VariableField.DefaultPreview
+  fullName: NextSerialization.MessageTypes.Next.VariableField.DefaultPreview
+- uid: NextSerialization.MessageTypes.Next.VariableField.PromptText*
+  commentId: Overload:NextSerialization.MessageTypes.Next.VariableField.PromptText
+  name: PromptText
+  nameWithType: VariableField.PromptText
+  fullName: NextSerialization.MessageTypes.Next.VariableField.PromptText
+- uid: NextSerialization.MessageTypes.Next.VariableField.Length*
+  commentId: Overload:NextSerialization.MessageTypes.Next.VariableField.Length
+  name: Length
+  nameWithType: VariableField.Length
+  fullName: NextSerialization.MessageTypes.Next.VariableField.Length

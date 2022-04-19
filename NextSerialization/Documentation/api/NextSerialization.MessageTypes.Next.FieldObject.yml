@@ -1,0 +1,875 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.FieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.FieldObject
+  id: FieldObject
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.FieldObject.Ai
+  - NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  - NextSerialization.MessageTypes.Next.FieldObject.Height
+  - NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+  - NextSerialization.MessageTypes.Next.FieldObject.Regex
+  - NextSerialization.MessageTypes.Next.FieldObject.Width
+  - NextSerialization.MessageTypes.Next.FieldObject.X
+  - NextSerialization.MessageTypes.Next.FieldObject.Y
+  langs:
+  - csharp
+  - vb
+  name: FieldObject
+  nameWithType: FieldObject
+  fullName: NextSerialization.MessageTypes.Next.FieldObject
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: FieldObject
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 23
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nContains properties that are used to define a general content element on\na <xref href=\"NextSerialization.MessageTypes.Next.NextMessage\" data-throw-if-not-resolved=\"false\"></xref> file and serves as the base class for the all derived\nfields.\n<h2>Derived Fields</h2>\n<table><tbody><tr><td><xref href=\"NextSerialization.MessageTypes.Next.BarcodeField\" data-throw-if-not-resolved=\"false\"></xref></td><td>Defines the barcode type and other rendering aspects needed to render and print a barcode element.</td></tr><tr><td><xref href=\"NextSerialization.MessageTypes.Next.CountField\" data-throw-if-not-resolved=\"false\"></xref></td><td>Defines the properties needed to render and print an incremental count element.</td></tr><tr><td><xref href=\"NextSerialization.MessageTypes.Next.DateTimeField\" data-throw-if-not-resolved=\"false\"></xref></td><td>Defines the format and style for rendering and printing a date or time element.</td></tr><tr><td><xref href=\"NextSerialization.MessageTypes.Next.LineField\" data-throw-if-not-resolved=\"false\"></xref></td><td>Defines the length, line weight, and orientation to render and print a line element.</td></tr><tr><td><xref href=\"NextSerialization.MessageTypes.Next.LogoField\" data-throw-if-not-resolved=\"false\"></xref></td><td>Defines the file name and dimentions required to render and print an image element.</td></tr><tr><td><xref href=\"NextSerialization.MessageTypes.Next.RectangleField\" data-throw-if-not-resolved=\"false\"></xref></td><td>Defines the length, width, line weight, and orientation to render and print a rectangular element.</td></tr><tr><td><xref href=\"NextSerialization.MessageTypes.Next.TextField\" data-throw-if-not-resolved=\"false\"></xref></td><td>Defines the font and other aspects required to render and print a text element.</td></tr><tr><td><xref href=\"NextSerialization.MessageTypes.Next.VariableField\" data-throw-if-not-resolved=\"false\"></xref></td><td>Defines the data source and other aspects to render and print a data bound element.</td></tr></tbody></table>\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class FieldObject : IFieldObject
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class FieldObject
+          Implements IFieldObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - NextSerialization.MessageTypes.Next.BarcodeField
+  - NextSerialization.MessageTypes.Next.LineField
+  - NextSerialization.MessageTypes.Next.LogoField
+  - NextSerialization.MessageTypes.Next.RectangleField
+  - NextSerialization.MessageTypes.Next.TextField
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: NextSerialization.MessageTypes.Next.FieldObject.X
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.X
+  id: X
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: FieldObject.X
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.X
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: X
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 39
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe horizontal distance that the element will be rendered measured, in inches, from the top left corner of the message.\n"
+  remarks: The units of measure for the <xref href="NextSerialization.MessageTypes.Next.FieldObject.X" data-throw-if-not-resolved="false"></xref> coordinate are localized in the UI but will always be saved in the message file in inches.
+  example: []
+  syntax:
+    content: public decimal X { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property X As Decimal
+  overload: NextSerialization.MessageTypes.Next.FieldObject.X*
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Y
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Y
+  id: Y
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: FieldObject.Y
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Y
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Y
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 56
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe vertical distance that the element will be rendered measured, in inches, from the top left corner of the message.\n"
+  remarks: The units of measure for the <xref href="NextSerialization.MessageTypes.Next.FieldObject.Y" data-throw-if-not-resolved="false"></xref> coordinate are localized in the UI but will always be saved in the message file in inches.
+  example: []
+  syntax:
+    content: public decimal Y { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Y As Decimal
+  overload: NextSerialization.MessageTypes.Next.FieldObject.Y*
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Width
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Width
+  id: Width
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: FieldObject.Width
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Width
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Width
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 73
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe horizontal measurement of the size of the element.\n"
+  remarks: The units of measure for the <xref href="NextSerialization.MessageTypes.Next.FieldObject.Width" data-throw-if-not-resolved="false"></xref> are localized in the UI but will always be saved in the message file in inches.
+  example: []
+  syntax:
+    content: public virtual decimal Width { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Overridable Property Width As Decimal
+  overload: NextSerialization.MessageTypes.Next.FieldObject.Width*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Height
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Height
+  id: Height
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: FieldObject.Height
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Height
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Height
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 90
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe vertical measurement of the size of the element.\n"
+  remarks: The units of measure for the <xref href="NextSerialization.MessageTypes.Next.FieldObject.Height" data-throw-if-not-resolved="false"></xref> are localized in the UI but will always be saved in the message file in inches.
+  example: []
+  syntax:
+    content: public decimal Height { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Height As Decimal
+  overload: NextSerialization.MessageTypes.Next.FieldObject.Height*
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+  id: LockAspectRatio
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  langs:
+  - csharp
+  - vb
+  name: LockAspectRatio
+  nameWithType: FieldObject.LockAspectRatio
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: LockAspectRatio
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 106
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIndicates that the element&apos;s aspect ratio should be maintained when resizing.\n"
+  example: []
+  syntax:
+    content: public string LockAspectRatio { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LockAspectRatio As String
+  overload: NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio*
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  id: FNC1
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  langs:
+  - csharp
+  - vb
+  name: FNC1
+  nameWithType: FieldObject.FNC1
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: FNC1
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 113
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nFunction 1 Symbol Character used as a data separator in GS1 barcodes.\n"
+  remarks: 'Note: <xref href="NextSerialization.MessageTypes.Next.FieldObject.FNC1" data-throw-if-not-resolved="false"></xref> is only used when a <xref href="NextSerialization.MessageTypes.Next.FieldObject" data-throw-if-not-resolved="false"></xref> is a sub-element of a <xref href="NextSerialization.MessageTypes.Next.BarcodeField" data-throw-if-not-resolved="false"></xref> element.'
+  example: []
+  syntax:
+    content: public virtual string FNC1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FNC1 As String
+  overload: NextSerialization.MessageTypes.Next.FieldObject.FNC1*
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Ai
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Ai
+  id: Ai
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  langs:
+  - csharp
+  - vb
+  name: Ai
+  nameWithType: FieldObject.Ai
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Ai
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Ai
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 119
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe GS1 application identifier code.\n"
+  example: []
+  syntax:
+    content: public virtual string Ai { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Ai As String
+  overload: NextSerialization.MessageTypes.Next.FieldObject.Ai*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Regex
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Regex
+  id: Regex
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  langs:
+  - csharp
+  - vb
+  name: Regex
+  nameWithType: FieldObject.Regex
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Regex
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/FieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Regex
+    path: ../MessageTypes/Next/Models/FieldObject.cs
+    startLine: 140
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nA regular expression used to validate that the data generated satisfies the configured restraints for the selected GS1 \napplication identifier.\n"
+  remarks: "\nThe value of the <xref href=\"NextSerialization.MessageTypes.Next.FieldObject.Regex\" data-throw-if-not-resolved=\"false\"></xref> attribute is typically generated by the NEXT Create UI.  Setting the value\nof the <xref href=\"NextSerialization.MessageTypes.Next.FieldObject.Regex\" data-throw-if-not-resolved=\"false\"></xref> attribute to an arbitrary regular expression may yield unexpected results.\n"
+  example: []
+  syntax:
+    content: public string Regex { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Regex As String
+  overload: NextSerialization.MessageTypes.Next.FieldObject.Regex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next.NextMessage
+  commentId: T:NextSerialization.MessageTypes.Next.NextMessage
+  parent: NextSerialization.MessageTypes.Next
+  name: NextMessage
+  nameWithType: NextMessage
+  fullName: NextSerialization.MessageTypes.Next.NextMessage
+- uid: NextSerialization.MessageTypes.Next.BarcodeField
+  commentId: T:NextSerialization.MessageTypes.Next.BarcodeField
+  name: BarcodeField
+  nameWithType: BarcodeField
+  fullName: NextSerialization.MessageTypes.Next.BarcodeField
+- uid: NextSerialization.MessageTypes.Next.CountField
+  commentId: T:NextSerialization.MessageTypes.Next.CountField
+  name: CountField
+  nameWithType: CountField
+  fullName: NextSerialization.MessageTypes.Next.CountField
+- uid: NextSerialization.MessageTypes.Next.DateTimeField
+  commentId: T:NextSerialization.MessageTypes.Next.DateTimeField
+  name: DateTimeField
+  nameWithType: DateTimeField
+  fullName: NextSerialization.MessageTypes.Next.DateTimeField
+- uid: NextSerialization.MessageTypes.Next.LineField
+  commentId: T:NextSerialization.MessageTypes.Next.LineField
+  name: LineField
+  nameWithType: LineField
+  fullName: NextSerialization.MessageTypes.Next.LineField
+- uid: NextSerialization.MessageTypes.Next.LogoField
+  commentId: T:NextSerialization.MessageTypes.Next.LogoField
+  name: LogoField
+  nameWithType: LogoField
+  fullName: NextSerialization.MessageTypes.Next.LogoField
+- uid: NextSerialization.MessageTypes.Next.RectangleField
+  commentId: T:NextSerialization.MessageTypes.Next.RectangleField
+  name: RectangleField
+  nameWithType: RectangleField
+  fullName: NextSerialization.MessageTypes.Next.RectangleField
+- uid: NextSerialization.MessageTypes.Next.TextField
+  commentId: T:NextSerialization.MessageTypes.Next.TextField
+  parent: NextSerialization.MessageTypes.Next
+  name: TextField
+  nameWithType: TextField
+  fullName: NextSerialization.MessageTypes.Next.TextField
+- uid: NextSerialization.MessageTypes.Next.VariableField
+  commentId: T:NextSerialization.MessageTypes.Next.VariableField
+  name: VariableField
+  nameWithType: VariableField
+  fullName: NextSerialization.MessageTypes.Next.VariableField
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  name: IFieldObject
+  nameWithType: IFieldObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  commentId: N:NextSerialization.MessageTypes.Next.Interfaces
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  nameWithType: NextSerialization.MessageTypes.Next.Interfaces
+  fullName: NextSerialization.MessageTypes.Next.Interfaces
+- uid: NextSerialization.MessageTypes.Next.FieldObject.X
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.X
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: X
+  nameWithType: FieldObject.X
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.X
+- uid: NextSerialization.MessageTypes.Next.FieldObject.X*
+  commentId: Overload:NextSerialization.MessageTypes.Next.FieldObject.X
+  name: X
+  nameWithType: FieldObject.X
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.X
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: X
+  nameWithType: IFieldObject.X
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: NextSerialization.MessageTypes.Next.FieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.FieldObject
+  parent: NextSerialization.MessageTypes.Next
+  name: FieldObject
+  nameWithType: FieldObject
+  fullName: NextSerialization.MessageTypes.Next.FieldObject
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Y
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Y
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Y
+  nameWithType: FieldObject.Y
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Y
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Y*
+  commentId: Overload:NextSerialization.MessageTypes.Next.FieldObject.Y
+  name: Y
+  nameWithType: FieldObject.Y
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Y
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: Y
+  nameWithType: IFieldObject.Y
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Width
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Width
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Width
+  nameWithType: FieldObject.Width
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Width
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Width*
+  commentId: Overload:NextSerialization.MessageTypes.Next.FieldObject.Width
+  name: Width
+  nameWithType: FieldObject.Width
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Width
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Height
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Height
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Height
+  nameWithType: FieldObject.Height
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Height
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Height*
+  commentId: Overload:NextSerialization.MessageTypes.Next.FieldObject.Height
+  name: Height
+  nameWithType: FieldObject.Height
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Height
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: Height
+  nameWithType: IFieldObject.Height
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+- uid: NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio*
+  commentId: Overload:NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+  name: LockAspectRatio
+  nameWithType: FieldObject.LockAspectRatio
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.LockAspectRatio
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: LockAspectRatio
+  nameWithType: IFieldObject.LockAspectRatio
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: FNC1
+  nameWithType: FieldObject.FNC1
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.FNC1
+- uid: NextSerialization.MessageTypes.Next.FieldObject.FNC1*
+  commentId: Overload:NextSerialization.MessageTypes.Next.FieldObject.FNC1
+  name: FNC1
+  nameWithType: FieldObject.FNC1
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.FNC1
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: FNC1
+  nameWithType: IFieldObject.FNC1
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Ai*
+  commentId: Overload:NextSerialization.MessageTypes.Next.FieldObject.Ai
+  name: Ai
+  nameWithType: FieldObject.Ai
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Ai
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Regex
+  commentId: P:NextSerialization.MessageTypes.Next.FieldObject.Regex
+  parent: NextSerialization.MessageTypes.Next.FieldObject
+  name: Regex
+  nameWithType: FieldObject.Regex
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Regex
+- uid: NextSerialization.MessageTypes.Next.FieldObject.Regex*
+  commentId: Overload:NextSerialization.MessageTypes.Next.FieldObject.Regex
+  name: Regex
+  nameWithType: FieldObject.Regex
+  fullName: NextSerialization.MessageTypes.Next.FieldObject.Regex

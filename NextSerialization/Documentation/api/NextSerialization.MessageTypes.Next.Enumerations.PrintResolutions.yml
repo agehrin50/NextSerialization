@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  id: PrintResolutions
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  children:
+  - NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.High
+  - NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.Low
+  langs:
+  - csharp
+  - vb
+  name: PrintResolutions
+  nameWithType: PrintResolutions
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  type: Enum
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/PrintResolutions.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: PrintResolutions
+    path: ../MessageTypes/Next/Enumerations/PrintResolutions.cs
+    startLine: 6
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public enum PrintResolutions
+    content.vb: Public Enum PrintResolutions
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.Low
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.Low
+  id: Low
+  parent: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: PrintResolutions.Low
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.Low
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/PrintResolutions.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Low
+    path: ../MessageTypes/Next/Enumerations/PrintResolutions.cs
+    startLine: 11
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: Low = 0
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.High
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.High
+  id: High
+  parent: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: PrintResolutions.High
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.High
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/PrintResolutions.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: High
+    path: ../MessageTypes/Next/Enumerations/PrintResolutions.cs
+    startLine: 17
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: High = 1
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: PrintResolutions
+  nameWithType: PrintResolutions
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions

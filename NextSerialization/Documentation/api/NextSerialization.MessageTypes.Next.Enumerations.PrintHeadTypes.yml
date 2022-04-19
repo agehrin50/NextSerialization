@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  id: PrintHeadTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  children:
+  - NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes.Mark2
+  - NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes.Mark4
+  langs:
+  - csharp
+  - vb
+  name: PrintHeadTypes
+  nameWithType: PrintHeadTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  type: Enum
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/PrintHeadTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: PrintHeadTypes
+    path: ../MessageTypes/Next/Enumerations/PrintHeadTypes.cs
+    startLine: 6
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public enum PrintHeadTypes
+    content.vb: Public Enum PrintHeadTypes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes.Mark2
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes.Mark2
+  id: Mark2
+  parent: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  langs:
+  - csharp
+  - vb
+  name: Mark2
+  nameWithType: PrintHeadTypes.Mark2
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes.Mark2
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/PrintHeadTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Mark2
+    path: ../MessageTypes/Next/Enumerations/PrintHeadTypes.cs
+    startLine: 11
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: Mark2 = 0
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes.Mark4
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes.Mark4
+  id: Mark4
+  parent: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  langs:
+  - csharp
+  - vb
+  name: Mark4
+  nameWithType: PrintHeadTypes.Mark4
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes.Mark4
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/PrintHeadTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Mark4
+    path: ../MessageTypes/Next/Enumerations/PrintHeadTypes.cs
+    startLine: 17
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: Mark4 = 1
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: PrintHeadTypes
+  nameWithType: PrintHeadTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes

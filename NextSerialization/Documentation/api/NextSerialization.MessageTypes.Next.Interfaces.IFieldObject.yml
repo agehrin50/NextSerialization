@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  id: IFieldObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  children:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  langs:
+  - csharp
+  - vb
+  name: IFieldObject
+  nameWithType: IFieldObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  type: Interface
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: IFieldObject
+    path: ../MessageTypes/Next/Interfaces/IFieldObject.cs
+    startLine: 5
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nDefines properties that are intrinsic to any element to be rendered.\n"
+  example: []
+  syntax:
+    content: public interface IFieldObject
+    content.vb: Public Interface IFieldObject
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  id: X
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: IFieldObject.X
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: X
+    path: ../MessageTypes/Next/Interfaces/IFieldObject.cs
+    startLine: 11
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nThe horizontal distance that the element will be rendered measured, in inches, from the top left corner of the message.\n"
+  remarks: The units of measure for the <xref href="NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X" data-throw-if-not-resolved="false"></xref> coordinate are localized in the UI but will always be saved in the message file in inches.
+  example: []
+  syntax:
+    content: decimal X { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Property X As Decimal
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X*
+  modifiers.csharp:
+  - get
+  - set
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  id: Y
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: IFieldObject.Y
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Y
+    path: ../MessageTypes/Next/Interfaces/IFieldObject.cs
+    startLine: 17
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nThe vertical distance that the element will be rendered measured from the top left corner of the message.\n"
+  remarks: The units of measure for the <xref href="NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y" data-throw-if-not-resolved="false"></xref> coordinate are localized in the UI but will always be saved in the message file in inches.
+  example: []
+  syntax:
+    content: decimal Y { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Property Y As Decimal
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y*
+  modifiers.csharp:
+  - get
+  - set
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+  id: LockAspectRatio
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  langs:
+  - csharp
+  - vb
+  name: LockAspectRatio
+  nameWithType: IFieldObject.LockAspectRatio
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: LockAspectRatio
+    path: ../MessageTypes/Next/Interfaces/IFieldObject.cs
+    startLine: 22
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nIndicates that the element&apos;s aspect ratio should be maintained when resizing.\n"
+  example: []
+  syntax:
+    content: string LockAspectRatio { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property LockAspectRatio As String
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio*
+  modifiers.csharp:
+  - get
+  - set
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  id: Height
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: IFieldObject.Height
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Height
+    path: ../MessageTypes/Next/Interfaces/IFieldObject.cs
+    startLine: 28
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nThe vertical measurement of the size of the element.\n"
+  remarks: The units of measure for the <xref href="NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height" data-throw-if-not-resolved="false"></xref> are localized in the UI but will always be saved in the message file in inches.
+  example: []
+  syntax:
+    content: decimal Height { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Property Height As Decimal
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height*
+  modifiers.csharp:
+  - get
+  - set
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  id: FNC1
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  langs:
+  - csharp
+  - vb
+  name: FNC1
+  nameWithType: IFieldObject.FNC1
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFieldObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: FNC1
+    path: ../MessageTypes/Next/Interfaces/IFieldObject.cs
+    startLine: 34
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nFunction 1 Symbol Character used as a data separator in GS1 barcodes.\n"
+  remarks: 'Note: <xref href="NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1" data-throw-if-not-resolved="false"></xref> is only used when a <xref href="NextSerialization.MessageTypes.Next.FieldObject" data-throw-if-not-resolved="false"></xref> is a sub-element of a <xref href="NextSerialization.MessageTypes.Next.BarcodeField" data-throw-if-not-resolved="false"></xref> element.'
+  example: []
+  syntax:
+    content: string FNC1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property FNC1 As String
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  commentId: N:NextSerialization.MessageTypes.Next.Interfaces
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  nameWithType: NextSerialization.MessageTypes.Next.Interfaces
+  fullName: NextSerialization.MessageTypes.Next.Interfaces
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: X
+  nameWithType: IFieldObject.X
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+  name: X
+  nameWithType: IFieldObject.X
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.X
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  name: IFieldObject
+  nameWithType: IFieldObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: Y
+  nameWithType: IFieldObject.Y
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+  name: Y
+  nameWithType: IFieldObject.Y
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Y
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+  name: LockAspectRatio
+  nameWithType: IFieldObject.LockAspectRatio
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.LockAspectRatio
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: Height
+  nameWithType: IFieldObject.Height
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+  name: Height
+  nameWithType: IFieldObject.Height
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.Height
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  name: FNC1
+  nameWithType: IFieldObject.FNC1
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+- uid: NextSerialization.MessageTypes.Next.FieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.FieldObject
+  parent: NextSerialization.MessageTypes.Next
+  name: FieldObject
+  nameWithType: FieldObject
+  fullName: NextSerialization.MessageTypes.Next.FieldObject
+- uid: NextSerialization.MessageTypes.Next.BarcodeField
+  commentId: T:NextSerialization.MessageTypes.Next.BarcodeField
+  name: BarcodeField
+  nameWithType: BarcodeField
+  fullName: NextSerialization.MessageTypes.Next.BarcodeField
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+  name: FNC1
+  nameWithType: IFieldObject.FNC1
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject.FNC1
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next

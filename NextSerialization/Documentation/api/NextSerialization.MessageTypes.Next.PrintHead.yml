@@ -1,0 +1,726 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.PrintHead
+  commentId: T:NextSerialization.MessageTypes.Next.PrintHead
+  id: PrintHead
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.PrintHead.Dpi
+  - NextSerialization.MessageTypes.Next.PrintHead.Enabled
+  - NextSerialization.MessageTypes.Next.PrintHead.FieldObjects
+  - NextSerialization.MessageTypes.Next.PrintHead.Name
+  - NextSerialization.MessageTypes.Next.PrintHead.Offset
+  - NextSerialization.MessageTypes.Next.PrintHead.Type
+  - NextSerialization.MessageTypes.Next.PrintHead.Uid
+  langs:
+  - csharp
+  - vb
+  name: PrintHead
+  nameWithType: PrintHead
+  fullName: NextSerialization.MessageTypes.Next.PrintHead
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/PrintHead.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: PrintHead
+    path: ../MessageTypes/Next/Models/PrintHead.cs
+    startLine: 10
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nRepresents a physical print head and defines the data that will be rendered and printed by that print head.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class PrintHead
+    content.vb: >-
+      <Serializable>
+
+      Public Class PrintHead
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.PrintHead.FieldObjects
+  commentId: P:NextSerialization.MessageTypes.Next.PrintHead.FieldObjects
+  id: FieldObjects
+  parent: NextSerialization.MessageTypes.Next.PrintHead
+  langs:
+  - csharp
+  - vb
+  name: FieldObjects
+  nameWithType: PrintHead.FieldObjects
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.FieldObjects
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/PrintHead.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: FieldObjects
+    path: ../MessageTypes/Next/Models/PrintHead.cs
+    startLine: 19
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe collection of elements that are rendered on the message.\n"
+  example: []
+  syntax:
+    content: public FieldObject[] FieldObjects { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.FieldObject[]
+    content.vb: Public Property FieldObjects As FieldObject()
+  overload: NextSerialization.MessageTypes.Next.PrintHead.FieldObjects*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Uid
+  commentId: P:NextSerialization.MessageTypes.Next.PrintHead.Uid
+  id: Uid
+  parent: NextSerialization.MessageTypes.Next.PrintHead
+  langs:
+  - csharp
+  - vb
+  name: Uid
+  nameWithType: PrintHead.Uid
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Uid
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/PrintHead.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Uid
+    path: ../MessageTypes/Next/Models/PrintHead.cs
+    startLine: 28
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nMaps the message segment to the print head.\n"
+  remarks: "\nA total of eight print heads are supported and the UID must fall into that range (UID: 1 - 8).\n"
+  example: []
+  syntax:
+    content: public int Uid { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Uid As Integer
+  overload: NextSerialization.MessageTypes.Next.PrintHead.Uid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Name
+  commentId: P:NextSerialization.MessageTypes.Next.PrintHead.Name
+  id: Name
+  parent: NextSerialization.MessageTypes.Next.PrintHead
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PrintHead.Name
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Name
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/PrintHead.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Name
+    path: ../MessageTypes/Next/Models/PrintHead.cs
+    startLine: 34
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe name of the print head.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: NextSerialization.MessageTypes.Next.PrintHead.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Type
+  commentId: P:NextSerialization.MessageTypes.Next.PrintHead.Type
+  id: Type
+  parent: NextSerialization.MessageTypes.Next.PrintHead
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PrintHead.Type
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Type
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/PrintHead.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Type
+    path: ../MessageTypes/Next/Models/PrintHead.cs
+    startLine: 47
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nA value indicating the type of print head to use to print the message.\n"
+  remarks: "\nValid Print Head Types\n<table><tbody><tr><td>384</td><td>MARK 2</td></tr><tr><td>768</td><td>MARK 4</td></tr></tbody></table>\n"
+  example: []
+  syntax:
+    content: public PrintHeadTypes Type { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+    content.vb: Public Property Type As PrintHeadTypes
+  overload: NextSerialization.MessageTypes.Next.PrintHead.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Offset
+  commentId: P:NextSerialization.MessageTypes.Next.PrintHead.Offset
+  id: Offset
+  parent: NextSerialization.MessageTypes.Next.PrintHead
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: PrintHead.Offset
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Offset
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/PrintHead.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Offset
+    path: ../MessageTypes/Next/Models/PrintHead.cs
+    startLine: 63
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe physical distance, in inches, that the print head is from the trigger point.\n"
+  example: []
+  syntax:
+    content: public decimal Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Offset As Decimal
+  overload: NextSerialization.MessageTypes.Next.PrintHead.Offset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Enabled
+  commentId: P:NextSerialization.MessageTypes.Next.PrintHead.Enabled
+  id: Enabled
+  parent: NextSerialization.MessageTypes.Next.PrintHead
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: PrintHead.Enabled
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Enabled
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/PrintHead.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Enabled
+    path: ../MessageTypes/Next/Models/PrintHead.cs
+    startLine: 69
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIndicates whether the print head is used to print the message.\n"
+  example: []
+  syntax:
+    content: public string Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Enabled As String
+  overload: NextSerialization.MessageTypes.Next.PrintHead.Enabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Dpi
+  commentId: P:NextSerialization.MessageTypes.Next.PrintHead.Dpi
+  id: Dpi
+  parent: NextSerialization.MessageTypes.Next.PrintHead
+  langs:
+  - csharp
+  - vb
+  name: Dpi
+  nameWithType: PrintHead.Dpi
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Dpi
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/PrintHead.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Dpi
+    path: ../MessageTypes/Next/Models/PrintHead.cs
+    startLine: 81
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe horizontal resolution of the print head.\n"
+  remarks: "\n<strong>NOTE:</strong> The value of <xref href=\"NextSerialization.MessageTypes.Next.PrintHead.Dpi\" data-throw-if-not-resolved=\"false\"></xref> must match <xref href=\"NextSerialization.MessageTypes.Next.Product.Dpi\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: []
+  syntax:
+    content: public PrintResolutions Dpi { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+    content.vb: Public Property Dpi As PrintResolutions
+  overload: NextSerialization.MessageTypes.Next.PrintHead.Dpi*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.PrintHead.FieldObjects*
+  commentId: Overload:NextSerialization.MessageTypes.Next.PrintHead.FieldObjects
+  name: FieldObjects
+  nameWithType: PrintHead.FieldObjects
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.FieldObjects
+- uid: NextSerialization.MessageTypes.Next.FieldObject[]
+  isExternal: true
+  name: FieldObject[]
+  nameWithType: FieldObject[]
+  fullName: NextSerialization.MessageTypes.Next.FieldObject[]
+  nameWithType.vb: FieldObject()
+  fullName.vb: NextSerialization.MessageTypes.Next.FieldObject()
+  name.vb: FieldObject()
+  spec.csharp:
+  - uid: NextSerialization.MessageTypes.Next.FieldObject
+    name: FieldObject
+    nameWithType: FieldObject
+    fullName: NextSerialization.MessageTypes.Next.FieldObject
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: NextSerialization.MessageTypes.Next.FieldObject
+    name: FieldObject
+    nameWithType: FieldObject
+    fullName: NextSerialization.MessageTypes.Next.FieldObject
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Uid*
+  commentId: Overload:NextSerialization.MessageTypes.Next.PrintHead.Uid
+  name: Uid
+  nameWithType: PrintHead.Uid
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Uid
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Name*
+  commentId: Overload:NextSerialization.MessageTypes.Next.PrintHead.Name
+  name: Name
+  nameWithType: PrintHead.Name
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Type*
+  commentId: Overload:NextSerialization.MessageTypes.Next.PrintHead.Type
+  name: Type
+  nameWithType: PrintHead.Type
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Type
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: PrintHeadTypes
+  nameWithType: PrintHeadTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Offset*
+  commentId: Overload:NextSerialization.MessageTypes.Next.PrintHead.Offset
+  name: Offset
+  nameWithType: PrintHead.Offset
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Offset
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Enabled*
+  commentId: Overload:NextSerialization.MessageTypes.Next.PrintHead.Enabled
+  name: Enabled
+  nameWithType: PrintHead.Enabled
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Enabled
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Dpi
+  commentId: P:NextSerialization.MessageTypes.Next.PrintHead.Dpi
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.Product.Dpi
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Dpi
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.PrintHead.Dpi*
+  commentId: Overload:NextSerialization.MessageTypes.Next.PrintHead.Dpi
+  name: Dpi
+  nameWithType: PrintHead.Dpi
+  fullName: NextSerialization.MessageTypes.Next.PrintHead.Dpi
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: PrintResolutions
+  nameWithType: PrintResolutions
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions

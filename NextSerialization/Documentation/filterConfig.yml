@@ -1,4 +1,106 @@
 ﻿apiRules:
 - exclude:
-    uidRegex: ^NextSerialization\.MessageTypes\.NextMessage\.PromptTextSpecified
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.BarcodeField\.BarcodeTypeSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.BarcodeField\.FieldObjectSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Bearer\.HeightSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Bearer\.WidthSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.CountField\.AlphaCountSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.CountField\.IncrementSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.CountField\.NumberOfDigitsSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.CountField\.PalletSizeSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.CountField\.StartCountSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.CountField\.StopCountSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.DateTimeField\.DaysSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.DateTimeField\.WeeksSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.DateTimeField\.MonthsSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.DateTimeField\.YearsSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.FieldObject\.AiSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.FieldObject\.HeightSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.FieldObject\.RegexSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.FieldObject\.WidthSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.FieldObject\.XSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.FieldObject\.YSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.LineField\.OrientationSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Margin\.LeftSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Margin\.RightSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Parameters\.CaseSensitiveSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Parameters\.ChecksumSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Parameters\.EncodingSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Parameters\.FormattedRatioSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Parameters\.HeightSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Parameters\.IsHumanReadableSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.Parameters\.WidthSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.PrintHead\.TypeSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.VariableField\.IndexSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.VariableField\.LengthSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.VariableField\.PromptTextSpecified
+    type: Property
+- exclude:
+    uidRegex: ^NextSerialization\.MessageTypes\.Next\.VariableField\.SourceSpecified
     type: Property

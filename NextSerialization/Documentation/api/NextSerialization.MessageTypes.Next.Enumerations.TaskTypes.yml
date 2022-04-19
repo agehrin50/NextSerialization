@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  id: TaskTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  children:
+  - NextSerialization.MessageTypes.Next.Enumerations.TaskTypes.HighResTask
+  langs:
+  - csharp
+  - vb
+  name: TaskTypes
+  nameWithType: TaskTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  type: Enum
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/TaskTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: TaskTypes
+    path: ../MessageTypes/Next/Enumerations/TaskTypes.cs
+    startLine: 6
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\nEnumerated print technologies available.\n"
+  example: []
+  syntax:
+    content: public enum TaskTypes
+    content.vb: Public Enum TaskTypes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes.HighResTask
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.TaskTypes.HighResTask
+  id: HighResTask
+  parent: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  langs:
+  - csharp
+  - vb
+  name: HighResTask
+  nameWithType: TaskTypes.HighResTask
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes.HighResTask
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/TaskTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: HighResTask
+    path: ../MessageTypes/Next/Enumerations/TaskTypes.cs
+    startLine: 11
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\nIndicates that the Trident print engine technology is used.\n"
+  example: []
+  syntax:
+    content: HighResTask = 0
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: TaskTypes
+  nameWithType: TaskTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes

@@ -1,0 +1,1004 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Product
+  commentId: T:NextSerialization.MessageTypes.Next.Product
+  id: Product
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.Product.Box
+  - NextSerialization.MessageTypes.Next.Product.ContinuousPrint
+  - NextSerialization.MessageTypes.Next.Product.Dpi
+  - NextSerialization.MessageTypes.Next.Product.GapBetweenPrint
+  - NextSerialization.MessageTypes.Next.Product.Margin
+  - NextSerialization.MessageTypes.Next.Product.Name
+  - NextSerialization.MessageTypes.Next.Product.Panel
+  - NextSerialization.MessageTypes.Next.Product.PrintCount
+  - NextSerialization.MessageTypes.Next.Product.Resources
+  - NextSerialization.MessageTypes.Next.Product.TaskType
+  - NextSerialization.MessageTypes.Next.Product.UsePrintCount
+  - NextSerialization.MessageTypes.Next.Product.Variables
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: Product
+  fullName: NextSerialization.MessageTypes.Next.Product
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Product
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 10
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nRepresents the item that the message data describes and serves as the root XML element of the message file.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Product
+    content.vb: >-
+      <Serializable>
+
+      Public Class Product
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.Product.Name
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Name
+  id: Name
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Product.Name
+  fullName: NextSerialization.MessageTypes.Next.Product.Name
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Name
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 20
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe name of the message.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: NextSerialization.MessageTypes.Next.Product.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.GapBetweenPrint
+  commentId: P:NextSerialization.MessageTypes.Next.Product.GapBetweenPrint
+  id: GapBetweenPrint
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: GapBetweenPrint
+  nameWithType: Product.GapBetweenPrint
+  fullName: NextSerialization.MessageTypes.Next.Product.GapBetweenPrint
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: GapBetweenPrint
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 27
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe distance between messages.\n"
+  remarks: The units of measure for the <xref href="NextSerialization.MessageTypes.Next.Product.GapBetweenPrint" data-throw-if-not-resolved="false"></xref> are localized in the UI but will always be saved in the message file in inches.
+  example: []
+  syntax:
+    content: public decimal GapBetweenPrint { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property GapBetweenPrint As Decimal
+  overload: NextSerialization.MessageTypes.Next.Product.GapBetweenPrint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.TaskType
+  commentId: P:NextSerialization.MessageTypes.Next.Product.TaskType
+  id: TaskType
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: TaskType
+  nameWithType: Product.TaskType
+  fullName: NextSerialization.MessageTypes.Next.Product.TaskType
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: TaskType
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 34
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIndicates the print technology to use for the message.\n"
+  remarks: Currently the only valid value is &apos;HighResTask&apos;.
+  example: []
+  syntax:
+    content: public TaskTypes TaskType { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+    content.vb: Public Property TaskType As TaskTypes
+  overload: NextSerialization.MessageTypes.Next.Product.TaskType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.PrintCount
+  commentId: P:NextSerialization.MessageTypes.Next.Product.PrintCount
+  id: PrintCount
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: PrintCount
+  nameWithType: Product.PrintCount
+  fullName: NextSerialization.MessageTypes.Next.Product.PrintCount
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: PrintCount
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 40
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe number of times to print the message before stopping.\n"
+  example: []
+  syntax:
+    content: public int PrintCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PrintCount As Integer
+  overload: NextSerialization.MessageTypes.Next.Product.PrintCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.UsePrintCount
+  commentId: P:NextSerialization.MessageTypes.Next.Product.UsePrintCount
+  id: UsePrintCount
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: UsePrintCount
+  nameWithType: Product.UsePrintCount
+  fullName: NextSerialization.MessageTypes.Next.Product.UsePrintCount
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: UsePrintCount
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 46
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIndicates the the message shoule be printed <xref href=\"NextSerialization.MessageTypes.Next.Product.PrintCount\" data-throw-if-not-resolved=\"false\"></xref> times and then printing should stop.\n"
+  example: []
+  syntax:
+    content: public string UsePrintCount { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UsePrintCount As String
+  overload: NextSerialization.MessageTypes.Next.Product.UsePrintCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.ContinuousPrint
+  commentId: P:NextSerialization.MessageTypes.Next.Product.ContinuousPrint
+  id: ContinuousPrint
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: ContinuousPrint
+  nameWithType: Product.ContinuousPrint
+  fullName: NextSerialization.MessageTypes.Next.Product.ContinuousPrint
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: ContinuousPrint
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 57
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nIndicates that the message should be printed as long as the photocell indicates that\na surface is in front of the print heads.\n"
+  example: []
+  syntax:
+    content: public string ContinuousPrint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContinuousPrint As String
+  overload: NextSerialization.MessageTypes.Next.Product.ContinuousPrint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.Dpi
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Dpi
+  id: Dpi
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: Dpi
+  nameWithType: Product.Dpi
+  fullName: NextSerialization.MessageTypes.Next.Product.Dpi
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Dpi
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 70
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nSpecifies the horizontal resolution for the message.\n"
+  remarks: "\nValid values for message DPI are <xref href=\"NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.Low\" data-throw-if-not-resolved=\"false\"></xref> for 150 DPI and <xref href=\"NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.High\" data-throw-if-not-resolved=\"false\"></xref> for 300 DPI\n"
+  example: []
+  syntax:
+    content: public PrintResolutions Dpi { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+    content.vb: Public Property Dpi As PrintResolutions
+  overload: NextSerialization.MessageTypes.Next.Product.Dpi*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.Margin
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Margin
+  id: Margin
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: Margin
+  nameWithType: Product.Margin
+  fullName: NextSerialization.MessageTypes.Next.Product.Margin
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Margin
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 76
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nDefines the area to remain blank on either side of the message.\n"
+  example: []
+  syntax:
+    content: public Margin Margin { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Margin
+    content.vb: Public Property Margin As Margin
+  overload: NextSerialization.MessageTypes.Next.Product.Margin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.Box
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Box
+  id: Box
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: Box
+  nameWithType: Product.Box
+  fullName: NextSerialization.MessageTypes.Next.Product.Box
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Box
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 82
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public Box Box { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Box
+    content.vb: Public Property Box As Box
+  overload: NextSerialization.MessageTypes.Next.Product.Box*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.Variables
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Variables
+  id: Variables
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: Product.Variables
+  fullName: NextSerialization.MessageTypes.Next.Product.Variables
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Variables
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 88
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nDefines a collection of data connections and source columns for <xref href=\"NextSerialization.MessageTypes.Next.VariableField\" data-throw-if-not-resolved=\"false\"></xref> elements.\n"
+  example: []
+  syntax:
+    content: public Variables Variables { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Variables
+    content.vb: Public Property Variables As Variables
+  overload: NextSerialization.MessageTypes.Next.Product.Variables*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.Panel
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Panel
+  id: Panel
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: Panel
+  nameWithType: Product.Panel
+  fullName: NextSerialization.MessageTypes.Next.Product.Panel
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Panel
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 97
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nRepresents a <xref href=\"NextSerialization.MessageTypes.Next.Product\" data-throw-if-not-resolved=\"false\"></xref> surface in which message data will be printed.\n"
+  remarks: "\n<strong>NOTE:</strong> Only the &quot;Front&quot; <xref href=\"NextSerialization.MessageTypes.Next.Product.Panel\" data-throw-if-not-resolved=\"false\"></xref> is currently supported.\n"
+  example: []
+  syntax:
+    content: public Panel[] Panel { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Panel[]
+    content.vb: Public Property Panel As Panel()
+  overload: NextSerialization.MessageTypes.Next.Product.Panel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Product.Resources
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Resources
+  id: Resources
+  parent: NextSerialization.MessageTypes.Next.Product
+  langs:
+  - csharp
+  - vb
+  name: Resources
+  nameWithType: Product.Resources
+  fullName: NextSerialization.MessageTypes.Next.Product.Resources
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Product.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Resources
+    path: ../MessageTypes/Next/Models/Product.cs
+    startLine: 103
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nDefines external resources, such as images, that are used to render fields on the message.\n"
+  example: []
+  syntax:
+    content: public Resource[] Resources { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Resource[]
+    content.vb: Public Property Resources As Resource()
+  overload: NextSerialization.MessageTypes.Next.Product.Resources*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Product.Name*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.Name
+  name: Name
+  nameWithType: Product.Name
+  fullName: NextSerialization.MessageTypes.Next.Product.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.Product.GapBetweenPrint
+  commentId: P:NextSerialization.MessageTypes.Next.Product.GapBetweenPrint
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.Product.GapBetweenPrint*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.GapBetweenPrint
+  name: GapBetweenPrint
+  nameWithType: Product.GapBetweenPrint
+  fullName: NextSerialization.MessageTypes.Next.Product.GapBetweenPrint
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: NextSerialization.MessageTypes.Next.Product.TaskType*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.TaskType
+  name: TaskType
+  nameWithType: Product.TaskType
+  fullName: NextSerialization.MessageTypes.Next.Product.TaskType
+- uid: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: TaskTypes
+  nameWithType: TaskTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.Product.PrintCount*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.PrintCount
+  name: PrintCount
+  nameWithType: Product.PrintCount
+  fullName: NextSerialization.MessageTypes.Next.Product.PrintCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: NextSerialization.MessageTypes.Next.Product.PrintCount
+  commentId: P:NextSerialization.MessageTypes.Next.Product.PrintCount
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.Product.UsePrintCount*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.UsePrintCount
+  name: UsePrintCount
+  nameWithType: Product.UsePrintCount
+  fullName: NextSerialization.MessageTypes.Next.Product.UsePrintCount
+- uid: NextSerialization.MessageTypes.Next.Product.ContinuousPrint*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.ContinuousPrint
+  name: ContinuousPrint
+  nameWithType: Product.ContinuousPrint
+  fullName: NextSerialization.MessageTypes.Next.Product.ContinuousPrint
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.Low
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.Low
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.High
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions.High
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.Product.Dpi*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.Dpi
+  name: Dpi
+  nameWithType: Product.Dpi
+  fullName: NextSerialization.MessageTypes.Next.Product.Dpi
+- uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: PrintResolutions
+  nameWithType: PrintResolutions
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+- uid: NextSerialization.MessageTypes.Next.Product.Margin*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.Margin
+  name: Margin
+  nameWithType: Product.Margin
+  fullName: NextSerialization.MessageTypes.Next.Product.Margin
+- uid: NextSerialization.MessageTypes.Next.Margin
+  commentId: T:NextSerialization.MessageTypes.Next.Margin
+  parent: NextSerialization.MessageTypes.Next
+  name: Margin
+  nameWithType: Margin
+  fullName: NextSerialization.MessageTypes.Next.Margin
+- uid: NextSerialization.MessageTypes.Next.Product.Box*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.Box
+  name: Box
+  nameWithType: Product.Box
+  fullName: NextSerialization.MessageTypes.Next.Product.Box
+- uid: NextSerialization.MessageTypes.Next.Box
+  commentId: T:NextSerialization.MessageTypes.Next.Box
+  parent: NextSerialization.MessageTypes.Next
+  name: Box
+  nameWithType: Box
+  fullName: NextSerialization.MessageTypes.Next.Box
+- uid: NextSerialization.MessageTypes.Next.VariableField
+  commentId: T:NextSerialization.MessageTypes.Next.VariableField
+  name: VariableField
+  nameWithType: VariableField
+  fullName: NextSerialization.MessageTypes.Next.VariableField
+- uid: NextSerialization.MessageTypes.Next.Product.Variables*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.Variables
+  name: Variables
+  nameWithType: Product.Variables
+  fullName: NextSerialization.MessageTypes.Next.Product.Variables
+- uid: NextSerialization.MessageTypes.Next.Variables
+  commentId: T:NextSerialization.MessageTypes.Next.Variables
+  parent: NextSerialization.MessageTypes.Next
+  name: Variables
+  nameWithType: Variables
+  fullName: NextSerialization.MessageTypes.Next.Variables
+- uid: NextSerialization.MessageTypes.Next.Product
+  commentId: T:NextSerialization.MessageTypes.Next.Product
+  parent: NextSerialization.MessageTypes.Next
+  name: Product
+  nameWithType: Product
+  fullName: NextSerialization.MessageTypes.Next.Product
+- uid: NextSerialization.MessageTypes.Next.Product.Panel
+  commentId: P:NextSerialization.MessageTypes.Next.Product.Panel
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.Product.Panel*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.Panel
+  name: Panel
+  nameWithType: Product.Panel
+  fullName: NextSerialization.MessageTypes.Next.Product.Panel
+- uid: NextSerialization.MessageTypes.Next.Panel[]
+  isExternal: true
+  name: Panel[]
+  nameWithType: Panel[]
+  fullName: NextSerialization.MessageTypes.Next.Panel[]
+  nameWithType.vb: Panel()
+  fullName.vb: NextSerialization.MessageTypes.Next.Panel()
+  name.vb: Panel()
+  spec.csharp:
+  - uid: NextSerialization.MessageTypes.Next.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: NextSerialization.MessageTypes.Next.Panel
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: NextSerialization.MessageTypes.Next.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: NextSerialization.MessageTypes.Next.Panel
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: NextSerialization.MessageTypes.Next.Product.Resources*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Product.Resources
+  name: Resources
+  nameWithType: Product.Resources
+  fullName: NextSerialization.MessageTypes.Next.Product.Resources
+- uid: NextSerialization.MessageTypes.Next.Resource[]
+  isExternal: true
+  name: Resource[]
+  nameWithType: Resource[]
+  fullName: NextSerialization.MessageTypes.Next.Resource[]
+  nameWithType.vb: Resource()
+  fullName.vb: NextSerialization.MessageTypes.Next.Resource()
+  name.vb: Resource()
+  spec.csharp:
+  - uid: NextSerialization.MessageTypes.Next.Resource
+    name: Resource
+    nameWithType: Resource
+    fullName: NextSerialization.MessageTypes.Next.Resource
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: NextSerialization.MessageTypes.Next.Resource
+    name: Resource
+    nameWithType: Resource
+    fullName: NextSerialization.MessageTypes.Next.Resource
+  - name: ()
+    nameWithType: ()
+    fullName: ()

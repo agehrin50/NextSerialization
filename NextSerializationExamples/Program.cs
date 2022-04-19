@@ -1,15 +1,12 @@
 ﻿
-using NextSerialization.MessageTypes.NextMessage.Extensions;
-using NextSerialization.MessageTypes.NextMessage.Serialization;
+using NextSerialization.MessageTypes.Next.Extensions;
+using NextSerialization.MessageTypes.Next.Serialization;
 
 try
 {
     var inputFile = @"Resources/DiagraphReferenceResMarkData.next";
     var outputFile = @"Resources/DiagraphReference_Serialized.next";
     File.Delete(outputFile);
-
-    //var xdoc = XDocument.Load(inputFile);
-
 
     var messageSerializer = new MessageSerializer();
 

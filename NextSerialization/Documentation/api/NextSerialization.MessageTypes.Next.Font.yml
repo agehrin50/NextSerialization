@@ -1,0 +1,570 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Font
+  commentId: T:NextSerialization.MessageTypes.Next.Font
+  id: Font
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.Font.Family
+  - NextSerialization.MessageTypes.Next.Font.Height
+  - NextSerialization.MessageTypes.Next.Font.Style
+  - NextSerialization.MessageTypes.Next.Font.Width
+  langs:
+  - csharp
+  - vb
+  name: Font
+  nameWithType: Font
+  fullName: NextSerialization.MessageTypes.Next.Font
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Font.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Font
+    path: ../MessageTypes/Next/Models/Font.cs
+    startLine: 10
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nDescribes the aspects of the typeface of a textual element.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Font : IFontObject
+    content.vb: >-
+      <Serializable>
+
+      Public Class Font
+          Implements IFontObject
+  inheritance:
+  - System.Object
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.Font.Family
+  commentId: P:NextSerialization.MessageTypes.Next.Font.Family
+  id: Family
+  parent: NextSerialization.MessageTypes.Next.Font
+  langs:
+  - csharp
+  - vb
+  name: Family
+  nameWithType: Font.Family
+  fullName: NextSerialization.MessageTypes.Next.Font.Family
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Font.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Family
+    path: ../MessageTypes/Next/Models/Font.cs
+    startLine: 17
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe name of the font to be rendered.\n"
+  example: []
+  syntax:
+    content: public string Family { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Family As String
+  overload: NextSerialization.MessageTypes.Next.Font.Family*
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Font.Style
+  commentId: P:NextSerialization.MessageTypes.Next.Font.Style
+  id: Style
+  parent: NextSerialization.MessageTypes.Next.Font
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: Font.Style
+  fullName: NextSerialization.MessageTypes.Next.Font.Style
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Font.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Style
+    path: ../MessageTypes/Next/Models/Font.cs
+    startLine: 23
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe style to render the font (e.g. Italic, Bold, etc.).\n"
+  example: []
+  syntax:
+    content: public string Style { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Style As String
+  overload: NextSerialization.MessageTypes.Next.Font.Style*
+  implements:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Font.Width
+  commentId: P:NextSerialization.MessageTypes.Next.Font.Width
+  id: Width
+  parent: NextSerialization.MessageTypes.Next.Font
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Font.Width
+  fullName: NextSerialization.MessageTypes.Next.Font.Width
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Font.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Width
+    path: ../MessageTypes/Next/Models/Font.cs
+    startLine: 29
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe horizontal character size in points.\n"
+  example: []
+  syntax:
+    content: public int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Width As Integer
+  overload: NextSerialization.MessageTypes.Next.Font.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Font.Height
+  commentId: P:NextSerialization.MessageTypes.Next.Font.Height
+  id: Height
+  parent: NextSerialization.MessageTypes.Next.Font
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Font.Height
+  fullName: NextSerialization.MessageTypes.Next.Font.Height
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Font.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Height
+    path: ../MessageTypes/Next/Models/Font.cs
+    startLine: 35
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nThe vertical character size in points.\n"
+  example: []
+  syntax:
+    content: public int Height { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Height As Integer
+  overload: NextSerialization.MessageTypes.Next.Font.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  name: IFontObject
+  nameWithType: IFontObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  commentId: N:NextSerialization.MessageTypes.Next.Interfaces
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  nameWithType: NextSerialization.MessageTypes.Next.Interfaces
+  fullName: NextSerialization.MessageTypes.Next.Interfaces
+- uid: NextSerialization.MessageTypes.Next.Font.Family*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Font.Family
+  name: Family
+  nameWithType: Font.Family
+  fullName: NextSerialization.MessageTypes.Next.Font.Family
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  name: Family
+  nameWithType: IFontObject.Family
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next.Font.Style*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Font.Style
+  name: Style
+  nameWithType: Font.Style
+  fullName: NextSerialization.MessageTypes.Next.Font.Style
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  name: Style
+  nameWithType: IFontObject.Style
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+- uid: NextSerialization.MessageTypes.Next.Font.Width*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Font.Width
+  name: Width
+  nameWithType: Font.Width
+  fullName: NextSerialization.MessageTypes.Next.Font.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: NextSerialization.MessageTypes.Next.Font.Height*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Font.Height
+  name: Height
+  nameWithType: Font.Height
+  fullName: NextSerialization.MessageTypes.Next.Font.Height

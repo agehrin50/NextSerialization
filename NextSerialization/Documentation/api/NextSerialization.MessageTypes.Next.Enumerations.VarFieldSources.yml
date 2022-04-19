@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  id: VarFieldSources
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  children:
+  - NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.ComPort
+  - NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.Data
+  - NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.Database
+  langs:
+  - csharp
+  - vb
+  name: VarFieldSources
+  nameWithType: VarFieldSources
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  type: Enum
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/VarFieldSources.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: VarFieldSources
+    path: ../MessageTypes/Next/Enumerations/VarFieldSources.cs
+    startLine: 6
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\nEnumerates the possible values of <xref href=\"NextSerialization.MessageTypes.Next.DataSource\" data-throw-if-not-resolved=\"false\"></xref>s for <xref href=\"NextSerialization.MessageTypes.Next.VariableField\" data-throw-if-not-resolved=\"false\"></xref> objects.\n"
+  example: []
+  syntax:
+    content: public enum VarFieldSources
+    content.vb: Public Enum VarFieldSources
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.ComPort
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.ComPort
+  id: ComPort
+  parent: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  langs:
+  - csharp
+  - vb
+  name: ComPort
+  nameWithType: VarFieldSources.ComPort
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.ComPort
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/VarFieldSources.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: ComPort
+    path: ../MessageTypes/Next/Enumerations/VarFieldSources.cs
+    startLine: 11
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\nIndicates that variable field data is obtained from a COM Port.\n"
+  example: []
+  syntax:
+    content: ComPort = 0
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.Data
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.Data
+  id: Data
+  parent: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: VarFieldSources.Data
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.Data
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/VarFieldSources.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Data
+    path: ../MessageTypes/Next/Enumerations/VarFieldSources.cs
+    startLine: 17
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\nIndicates that variable field data is obtained from an external source.\n"
+  example: []
+  syntax:
+    content: Data = 1
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.Database
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.Database
+  id: Database
+  parent: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  langs:
+  - csharp
+  - vb
+  name: Database
+  nameWithType: VarFieldSources.Database
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources.Database
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/VarFieldSources.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Database
+    path: ../MessageTypes/Next/Enumerations/VarFieldSources.cs
+    startLine: 23
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\nIndicates that variable field data is obtained from a database.\n"
+  example: []
+  syntax:
+    content: Database = 2
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NextSerialization.MessageTypes.Next.DataSource
+  commentId: T:NextSerialization.MessageTypes.Next.DataSource
+  name: DataSource
+  nameWithType: DataSource
+  fullName: NextSerialization.MessageTypes.Next.DataSource
+- uid: NextSerialization.MessageTypes.Next.VariableField
+  commentId: T:NextSerialization.MessageTypes.Next.VariableField
+  name: VariableField
+  nameWithType: VariableField
+  fullName: NextSerialization.MessageTypes.Next.VariableField
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: VarFieldSources
+  nameWithType: VarFieldSources
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources

@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  id: IFontObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  children:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+  - NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+  langs:
+  - csharp
+  - vb
+  name: IFontObject
+  nameWithType: IFontObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  type: Interface
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFontObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: IFontObject
+    path: ../MessageTypes/Next/Interfaces/IFontObject.cs
+    startLine: 6
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nDefines properties that describe a font element that is rendered as part of another rendered \nelement, such as <xref href=\"NextSerialization.MessageTypes.Next.TextField\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"NextSerialization.MessageTypes.Next.BarcodeField\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public interface IFontObject
+    content.vb: Public Interface IFontObject
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+  id: Family
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  langs:
+  - csharp
+  - vb
+  name: Family
+  nameWithType: IFontObject.Family
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFontObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Family
+    path: ../MessageTypes/Next/Interfaces/IFontObject.cs
+    startLine: 11
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nThe name of the font to be rendered.\n"
+  example: []
+  syntax:
+    content: string Family { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Family As String
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family*
+  modifiers.csharp:
+  - get
+  - set
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+  commentId: P:NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+  id: Style
+  parent: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: IFontObject.Style
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Interfaces/IFontObject.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Style
+    path: ../MessageTypes/Next/Interfaces/IFontObject.cs
+    startLine: 16
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Interfaces
+  summary: "\nThe style to render the font (e.g. Italic, Bold, etc.).\n"
+  example: []
+  syntax:
+    content: string Style { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Style As String
+  overload: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: NextSerialization.MessageTypes.Next.TextField
+  commentId: T:NextSerialization.MessageTypes.Next.TextField
+  parent: NextSerialization.MessageTypes.Next
+  name: TextField
+  nameWithType: TextField
+  fullName: NextSerialization.MessageTypes.Next.TextField
+- uid: NextSerialization.MessageTypes.Next.BarcodeField
+  commentId: T:NextSerialization.MessageTypes.Next.BarcodeField
+  name: BarcodeField
+  nameWithType: BarcodeField
+  fullName: NextSerialization.MessageTypes.Next.BarcodeField
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  commentId: N:NextSerialization.MessageTypes.Next.Interfaces
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  nameWithType: NextSerialization.MessageTypes.Next.Interfaces
+  fullName: NextSerialization.MessageTypes.Next.Interfaces
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+  name: Family
+  nameWithType: IFontObject.Family
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Family
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style
+  name: Style
+  nameWithType: IFontObject.Style
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject.Style

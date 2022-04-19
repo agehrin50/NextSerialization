@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Variables
+  commentId: T:NextSerialization.MessageTypes.Next.Variables
+  id: Variables
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.Variables.ComPortSources
+  - NextSerialization.MessageTypes.Next.Variables.DataSources
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: Variables
+  fullName: NextSerialization.MessageTypes.Next.Variables
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Variables.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Variables
+    path: ../MessageTypes/Next/Models/Variables.cs
+    startLine: 8
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nDefines a collection of data connections and source columns for <xref href=\"NextSerialization.MessageTypes.Next.VariableField\" data-throw-if-not-resolved=\"false\"></xref> elements.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Variables
+    content.vb: >-
+      <Serializable>
+
+      Public Class Variables
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.Variables.ComPortSources
+  commentId: P:NextSerialization.MessageTypes.Next.Variables.ComPortSources
+  id: ComPortSources
+  parent: NextSerialization.MessageTypes.Next.Variables
+  langs:
+  - csharp
+  - vb
+  name: ComPortSources
+  nameWithType: Variables.ComPortSources
+  fullName: NextSerialization.MessageTypes.Next.Variables.ComPortSources
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Variables.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: ComPortSources
+    path: ../MessageTypes/Next/Models/Variables.cs
+    startLine: 15
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public ComPortData[] ComPortSources { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.ComPortData[]
+    content.vb: Public Property ComPortSources As ComPortData()
+  overload: NextSerialization.MessageTypes.Next.Variables.ComPortSources*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NextSerialization.MessageTypes.Next.Variables.DataSources
+  commentId: P:NextSerialization.MessageTypes.Next.Variables.DataSources
+  id: DataSources
+  parent: NextSerialization.MessageTypes.Next.Variables
+  langs:
+  - csharp
+  - vb
+  name: DataSources
+  nameWithType: Variables.DataSources
+  fullName: NextSerialization.MessageTypes.Next.Variables.DataSources
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/Variables.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DataSources
+    path: ../MessageTypes/Next/Models/Variables.cs
+    startLine: 28
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nDefines a DataSet XML element that represents the collection of DataSetObjects.  DataSetObject represents\na connection to a database, Excel, or CSV file and the corresponding columns available to use as sources\nof data for rendering in a <xref href=\"NextSerialization.MessageTypes.Next.VariableField\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: "\nThe <xref href=\"System.Xml.Serialization.XmlArrayAttribute\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.Xml.Serialization.XmlArrayItemAttribute\" data-throw-if-not-resolved=\"false\"></xref> are both applied to the\n<xref href=\"NextSerialization.MessageTypes.Next.Variables.DataSources\" data-throw-if-not-resolved=\"false\"></xref> property in order to match the required XML structure without the need for extra classes and properties. \n"
+  example: []
+  syntax:
+    content: public DataSource[] DataSources { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.DataSource[]
+    content.vb: Public Property DataSources As DataSource()
+  overload: NextSerialization.MessageTypes.Next.Variables.DataSources*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next.VariableField
+  commentId: T:NextSerialization.MessageTypes.Next.VariableField
+  name: VariableField
+  nameWithType: VariableField
+  fullName: NextSerialization.MessageTypes.Next.VariableField
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Variables.ComPortSources*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Variables.ComPortSources
+  name: ComPortSources
+  nameWithType: Variables.ComPortSources
+  fullName: NextSerialization.MessageTypes.Next.Variables.ComPortSources
+- uid: NextSerialization.MessageTypes.Next.ComPortData[]
+  isExternal: true
+  name: ComPortData[]
+  nameWithType: ComPortData[]
+  fullName: NextSerialization.MessageTypes.Next.ComPortData[]
+  nameWithType.vb: ComPortData()
+  fullName.vb: NextSerialization.MessageTypes.Next.ComPortData()
+  name.vb: ComPortData()
+  spec.csharp:
+  - uid: NextSerialization.MessageTypes.Next.ComPortData
+    name: ComPortData
+    nameWithType: ComPortData
+    fullName: NextSerialization.MessageTypes.Next.ComPortData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: NextSerialization.MessageTypes.Next.ComPortData
+    name: ComPortData
+    nameWithType: ComPortData
+    fullName: NextSerialization.MessageTypes.Next.ComPortData
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Xml.Serialization.XmlArrayAttribute
+  commentId: T:System.Xml.Serialization.XmlArrayAttribute
+  isExternal: true
+- uid: System.Xml.Serialization.XmlArrayItemAttribute
+  commentId: T:System.Xml.Serialization.XmlArrayItemAttribute
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.Variables.DataSources
+  commentId: P:NextSerialization.MessageTypes.Next.Variables.DataSources
+  isExternal: true
+- uid: NextSerialization.MessageTypes.Next.Variables.DataSources*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Variables.DataSources
+  name: DataSources
+  nameWithType: Variables.DataSources
+  fullName: NextSerialization.MessageTypes.Next.Variables.DataSources
+- uid: NextSerialization.MessageTypes.Next.DataSource[]
+  isExternal: true
+  name: DataSource[]
+  nameWithType: DataSource[]
+  fullName: NextSerialization.MessageTypes.Next.DataSource[]
+  nameWithType.vb: DataSource()
+  fullName.vb: NextSerialization.MessageTypes.Next.DataSource()
+  name.vb: DataSource()
+  spec.csharp:
+  - uid: NextSerialization.MessageTypes.Next.DataSource
+    name: DataSource
+    nameWithType: DataSource
+    fullName: NextSerialization.MessageTypes.Next.DataSource
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: NextSerialization.MessageTypes.Next.DataSource
+    name: DataSource
+    nameWithType: DataSource
+    fullName: NextSerialization.MessageTypes.Next.DataSource
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  commentId: T:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  id: MessageSerializerExtensions
+  parent: NextSerialization.MessageTypes.Next.Extensions
+  children:
+  - NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.ReadMessageFromFile(System.String)
+  - NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+  langs:
+  - csharp
+  - vb
+  name: MessageSerializerExtensions
+  nameWithType: MessageSerializerExtensions
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Extensions/MessageSerializerExtensions.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: MessageSerializerExtensions
+    path: ../MessageTypes/Next/Extensions/MessageSerializerExtensions.cs
+    startLine: 7
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Extensions
+  summary: "\nContains convenience methods for serializing/deserializing message data to and from file.\n"
+  example: []
+  syntax:
+    content: public static class MessageSerializerExtensions
+    content.vb: Public Module MessageSerializerExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+  commentId: M:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+  id: WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+  isExtensionMethod: true
+  parent: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  langs:
+  - csharp
+  - vb
+  name: WriteMessageToFile(NextMessage, String)
+  nameWithType: MessageSerializerExtensions.WriteMessageToFile(NextMessage, String)
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage, System.String)
+  type: Method
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Extensions/MessageSerializerExtensions.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: WriteMessageToFile
+    path: ../MessageTypes/Next/Extensions/MessageSerializerExtensions.cs
+    startLine: 14
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Extensions
+  summary: "\nWrites the <code data-dev-comment-type=\"paramref\" class=\"paramref\">message</code> data to <code data-dev-comment-type=\"paramref\" class=\"paramref\">outputFileName</code> as XML.\n"
+  example: []
+  syntax:
+    content: public static void WriteMessageToFile(this NextMessage message, string outputFileName)
+    parameters:
+    - id: message
+      type: NextSerialization.MessageTypes.Next.NextMessage
+      description: The message data to be written.
+    - id: outputFileName
+      type: System.String
+      description: The full or relative path and filename of the file to be written.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub WriteMessageToFile(message As NextMessage, outputFileName As String)
+  overload: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.ReadMessageFromFile(System.String)
+  commentId: M:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.ReadMessageFromFile(System.String)
+  id: ReadMessageFromFile(System.String)
+  isExtensionMethod: true
+  parent: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadMessageFromFile(String)
+  nameWithType: MessageSerializerExtensions.ReadMessageFromFile(String)
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.ReadMessageFromFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Extensions/MessageSerializerExtensions.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: ReadMessageFromFile
+    path: ../MessageTypes/Next/Extensions/MessageSerializerExtensions.cs
+    startLine: 29
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Extensions
+  summary: "\nReads the XML from <code data-dev-comment-type=\"paramref\" class=\"paramref\">inputFile</code> as a <xref href=\"NextSerialization.MessageTypes.Next.NextMessage\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static NextMessage ReadMessageFromFile(this string inputFile)
+    parameters:
+    - id: inputFile
+      type: System.String
+      description: The full or relative path and filename to read.
+    return:
+      type: NextSerialization.MessageTypes.Next.NextMessage
+      description: A <xref href="NextSerialization.MessageTypes.Next.NextMessage" data-throw-if-not-resolved="false"></xref> hydrated with the XML data from <code data-dev-comment-type="paramref" class="paramref">inputFile</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadMessageFromFile(inputFile As String) As NextMessage
+  overload: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.ReadMessageFromFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: NextSerialization.MessageTypes.Next.Extensions
+  commentId: N:NextSerialization.MessageTypes.Next.Extensions
+  name: NextSerialization.MessageTypes.Next.Extensions
+  nameWithType: NextSerialization.MessageTypes.Next.Extensions
+  fullName: NextSerialization.MessageTypes.Next.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile
+  name: WriteMessageToFile
+  nameWithType: MessageSerializerExtensions.WriteMessageToFile
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile
+- uid: NextSerialization.MessageTypes.Next.NextMessage
+  commentId: T:NextSerialization.MessageTypes.Next.NextMessage
+  parent: NextSerialization.MessageTypes.Next
+  name: NextMessage
+  nameWithType: NextMessage
+  fullName: NextSerialization.MessageTypes.Next.NextMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.ReadMessageFromFile*
+  commentId: Overload:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.ReadMessageFromFile
+  name: ReadMessageFromFile
+  nameWithType: MessageSerializerExtensions.ReadMessageFromFile
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.ReadMessageFromFile

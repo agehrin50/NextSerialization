@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  id: BarcodeTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  children:
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Code128
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Code3of9
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.DataMatrix
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Ean13
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Ean8
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1Code128
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1DataMatrix
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1QrCode
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.I2of5
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.QrCode
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Scc14I2of5
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.UpcA
+  - NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.UpcE
+  langs:
+  - csharp
+  - vb
+  name: BarcodeTypes
+  nameWithType: BarcodeTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  type: Enum
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: BarcodeTypes
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 6
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\nEnumerates the supported barcode types.\n"
+  example: []
+  syntax:
+    content: public enum BarcodeTypes
+    content.vb: Public Enum BarcodeTypes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Code128
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Code128
+  id: Code128
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: Code128
+  nameWithType: BarcodeTypes.Code128
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Code128
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Code128
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 9
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Code128 = 0
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Code3of9
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Code3of9
+  id: Code3of9
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: Code3of9
+  nameWithType: BarcodeTypes.Code3of9
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Code3of9
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Code3of9
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 12
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Code3of9 = 1
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.DataMatrix
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.DataMatrix
+  id: DataMatrix
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: DataMatrix
+  nameWithType: BarcodeTypes.DataMatrix
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.DataMatrix
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: DataMatrix
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 15
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: DataMatrix = 2
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Ean8
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Ean8
+  id: Ean8
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ean8
+  nameWithType: BarcodeTypes.Ean8
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Ean8
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Ean8
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 18
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Ean8 = 3
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Ean13
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Ean13
+  id: Ean13
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ean13
+  nameWithType: BarcodeTypes.Ean13
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Ean13
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Ean13
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 21
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Ean13 = 4
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1Code128
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1Code128
+  id: Gs1Code128
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gs1Code128
+  nameWithType: BarcodeTypes.Gs1Code128
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1Code128
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Gs1Code128
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 24
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Gs1Code128 = 5
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1DataMatrix
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1DataMatrix
+  id: Gs1DataMatrix
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gs1DataMatrix
+  nameWithType: BarcodeTypes.Gs1DataMatrix
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1DataMatrix
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Gs1DataMatrix
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 27
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Gs1DataMatrix = 6
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1QrCode
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1QrCode
+  id: Gs1QrCode
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gs1QrCode
+  nameWithType: BarcodeTypes.Gs1QrCode
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Gs1QrCode
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Gs1QrCode
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 30
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Gs1QrCode = 7
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.I2of5
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.I2of5
+  id: I2of5
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: I2of5
+  nameWithType: BarcodeTypes.I2of5
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.I2of5
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: I2of5
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 33
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: I2of5 = 8
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.QrCode
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.QrCode
+  id: QrCode
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: QrCode
+  nameWithType: BarcodeTypes.QrCode
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.QrCode
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: QrCode
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 36
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: QrCode = 9
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Scc14I2of5
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Scc14I2of5
+  id: Scc14I2of5
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: Scc14I2of5
+  nameWithType: BarcodeTypes.Scc14I2of5
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.Scc14I2of5
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Scc14I2of5
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 39
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Scc14I2of5 = 10
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.UpcA
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.UpcA
+  id: UpcA
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: UpcA
+  nameWithType: BarcodeTypes.UpcA
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.UpcA
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: UpcA
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 42
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: UpcA = 11
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.UpcE
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.UpcE
+  id: UpcE
+  parent: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  langs:
+  - csharp
+  - vb
+  name: UpcE
+  nameWithType: BarcodeTypes.UpcE
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes.UpcE
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/BarcodeTypes.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: UpcE
+    path: ../MessageTypes/Next/Enumerations/BarcodeTypes.cs
+    startLine: 45
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: UpcE = 12
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: BarcodeTypes
+  nameWithType: BarcodeTypes
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes

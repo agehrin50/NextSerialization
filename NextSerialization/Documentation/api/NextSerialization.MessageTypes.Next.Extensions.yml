@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Extensions
+  commentId: N:NextSerialization.MessageTypes.Next.Extensions
+  id: NextSerialization.MessageTypes.Next.Extensions
+  children:
+  - NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  langs:
+  - csharp
+  - vb
+  name: NextSerialization.MessageTypes.Next.Extensions
+  nameWithType: NextSerialization.MessageTypes.Next.Extensions
+  fullName: NextSerialization.MessageTypes.Next.Extensions
+  type: Namespace
+  assemblies:
+  - NextSerialization
+references:
+- uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  commentId: T:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  parent: NextSerialization.MessageTypes.Next.Extensions
+  name: MessageSerializerExtensions
+  nameWithType: MessageSerializerExtensions
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+- uid: NextSerialization.MessageTypes.Next.Extensions
+  commentId: N:NextSerialization.MessageTypes.Next.Extensions
+  name: NextSerialization.MessageTypes.Next.Extensions
+  nameWithType: NextSerialization.MessageTypes.Next.Extensions
+  fullName: NextSerialization.MessageTypes.Next.Extensions

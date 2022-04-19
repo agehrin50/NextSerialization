@@ -1,0 +1,497 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.NextMessage
+  commentId: T:NextSerialization.MessageTypes.Next.NextMessage
+  id: NextMessage
+  parent: NextSerialization.MessageTypes.Next
+  children:
+  - NextSerialization.MessageTypes.Next.NextMessage.Product
+  langs:
+  - csharp
+  - vb
+  name: NextMessage
+  nameWithType: NextMessage
+  fullName: NextSerialization.MessageTypes.Next.NextMessage
+  type: Class
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/NextMessage.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: NextMessage
+    path: ../MessageTypes/Next/Models/NextMessage.cs
+    startLine: 5
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nWrapper class for the data contained in the NEXT message file.\n"
+  example: []
+  syntax:
+    content: public class NextMessage
+    content.vb: Public Class NextMessage
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - NextSerialization.MessageTypes.Next.NextMessage.NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NextSerialization.MessageTypes.Next.NextMessage.Product
+  commentId: P:NextSerialization.MessageTypes.Next.NextMessage.Product
+  id: Product
+  parent: NextSerialization.MessageTypes.Next.NextMessage
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: NextMessage.Product
+  fullName: NextSerialization.MessageTypes.Next.NextMessage.Product
+  type: Property
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Models/NextMessage.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Product
+    path: ../MessageTypes/Next/Models/NextMessage.cs
+    startLine: 10
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next
+  summary: "\nRepresents the root node of the XML contained in the NEXT message data.\n"
+  example: []
+  syntax:
+    content: public Product Product { get; set; }
+    parameters: []
+    return:
+      type: NextSerialization.MessageTypes.Next.Product
+    content.vb: Public Property Product As Product
+  overload: NextSerialization.MessageTypes.Next.NextMessage.Product*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NextSerialization.MessageTypes.Next.NextMessage.NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(System.String)
+  commentId: M:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+  parent: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  definition: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+  name: WriteMessageToFile(String)
+  nameWithType: MessageSerializerExtensions.WriteMessageToFile(String)
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(System.String)
+  spec.csharp:
+  - uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(System.String)
+    name: WriteMessageToFile
+    nameWithType: MessageSerializerExtensions.WriteMessageToFile
+    fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(System.String)
+    name: WriteMessageToFile
+    nameWithType: MessageSerializerExtensions.WriteMessageToFile
+    fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+  commentId: M:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+  isExternal: true
+  name: WriteMessageToFile(NextMessage, String)
+  nameWithType: MessageSerializerExtensions.WriteMessageToFile(NextMessage, String)
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage, System.String)
+  spec.csharp:
+  - uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+    name: WriteMessageToFile
+    nameWithType: MessageSerializerExtensions.WriteMessageToFile
+    fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NextSerialization.MessageTypes.Next.NextMessage
+    name: NextMessage
+    nameWithType: NextMessage
+    fullName: NextSerialization.MessageTypes.Next.NextMessage
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile(NextSerialization.MessageTypes.Next.NextMessage,System.String)
+    name: WriteMessageToFile
+    nameWithType: MessageSerializerExtensions.WriteMessageToFile
+    fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions.WriteMessageToFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NextSerialization.MessageTypes.Next.NextMessage
+    name: NextMessage
+    nameWithType: NextMessage
+    fullName: NextSerialization.MessageTypes.Next.NextMessage
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  commentId: T:NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+  parent: NextSerialization.MessageTypes.Next.Extensions
+  name: MessageSerializerExtensions
+  nameWithType: MessageSerializerExtensions
+  fullName: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+- uid: NextSerialization.MessageTypes.Next.Extensions
+  commentId: N:NextSerialization.MessageTypes.Next.Extensions
+  name: NextSerialization.MessageTypes.Next.Extensions
+  nameWithType: NextSerialization.MessageTypes.Next.Extensions
+  fullName: NextSerialization.MessageTypes.Next.Extensions
+- uid: NextSerialization.MessageTypes.Next.NextMessage.Product*
+  commentId: Overload:NextSerialization.MessageTypes.Next.NextMessage.Product
+  name: Product
+  nameWithType: NextMessage.Product
+  fullName: NextSerialization.MessageTypes.Next.NextMessage.Product
+- uid: NextSerialization.MessageTypes.Next.Product
+  commentId: T:NextSerialization.MessageTypes.Next.Product
+  parent: NextSerialization.MessageTypes.Next
+  name: Product
+  nameWithType: Product
+  fullName: NextSerialization.MessageTypes.Next.Product

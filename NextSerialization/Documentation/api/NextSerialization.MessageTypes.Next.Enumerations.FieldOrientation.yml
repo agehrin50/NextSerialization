@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  id: FieldOrientation
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  children:
+  - NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation.Horizontal
+  - NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation.Vertical
+  langs:
+  - csharp
+  - vb
+  name: FieldOrientation
+  nameWithType: FieldOrientation
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  type: Enum
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/FieldOrientation.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: FieldOrientation
+    path: ../MessageTypes/Next/Enumerations/FieldOrientation.cs
+    startLine: 7
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  summary: "\nEnumerates orientation values for <xref href=\"NextSerialization.MessageTypes.Next.FieldObject\" data-throw-if-not-resolved=\"false\"></xref>s.\n"
+  example: []
+  syntax:
+    content: public enum FieldOrientation
+    content.vb: Public Enum FieldOrientation
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation.Horizontal
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation.Horizontal
+  id: Horizontal
+  parent: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: FieldOrientation.Horizontal
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation.Horizontal
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/FieldOrientation.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Horizontal
+    path: ../MessageTypes/Next/Enumerations/FieldOrientation.cs
+    startLine: 10
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Horizontal = 0
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation.Vertical
+  commentId: F:NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation.Vertical
+  id: Vertical
+  parent: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: FieldOrientation.Vertical
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation.Vertical
+  type: Field
+  source:
+    remote:
+      path: NextSerialization/MessageTypes/Next/Enumerations/FieldOrientation.cs
+      branch: main
+      repo: git@github.com:diagraph-developer/NextSerialization.git
+    id: Vertical
+    path: ../MessageTypes/Next/Enumerations/FieldOrientation.cs
+    startLine: 13
+  assemblies:
+  - NextSerialization
+  namespace: NextSerialization.MessageTypes.Next.Enumerations
+  syntax:
+    content: Vertical = 1
+    return:
+      type: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NextSerialization.MessageTypes.Next.FieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.FieldObject
+  parent: NextSerialization.MessageTypes.Next
+  name: FieldObject
+  nameWithType: FieldObject
+  fullName: NextSerialization.MessageTypes.Next.FieldObject
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  commentId: N:NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  nameWithType: NextSerialization.MessageTypes.Next.Enumerations
+  fullName: NextSerialization.MessageTypes.Next.Enumerations
+- uid: NextSerialization.MessageTypes.Next
+  commentId: N:NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  nameWithType: NextSerialization.MessageTypes.Next
+  fullName: NextSerialization.MessageTypes.Next
+- uid: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  commentId: T:NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+  parent: NextSerialization.MessageTypes.Next.Enumerations
+  name: FieldOrientation
+  nameWithType: FieldOrientation
+  fullName: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation

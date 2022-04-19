@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  commentId: N:NextSerialization.MessageTypes.Next.Interfaces
+  id: NextSerialization.MessageTypes.Next.Interfaces
+  children:
+  - NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  - NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  - NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+  langs:
+  - csharp
+  - vb
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  nameWithType: NextSerialization.MessageTypes.Next.Interfaces
+  fullName: NextSerialization.MessageTypes.Next.Interfaces
+  type: Namespace
+  assemblies:
+  - NextSerialization
+references:
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  name: IFieldObject
+  nameWithType: IFieldObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  name: IFontObject
+  nameWithType: IFontObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+- uid: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+  commentId: T:NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+  parent: NextSerialization.MessageTypes.Next.Interfaces
+  name: IShapeObject
+  nameWithType: IShapeObject
+  fullName: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  commentId: N:NextSerialization.MessageTypes.Next.Interfaces
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  nameWithType: NextSerialization.MessageTypes.Next.Interfaces
+  fullName: NextSerialization.MessageTypes.Next.Interfaces

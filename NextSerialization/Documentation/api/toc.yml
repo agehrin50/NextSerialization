@@ -1,0 +1,90 @@
+### YamlMime:TableOfContent
+- uid: NextSerialization.MessageTypes.Next
+  name: NextSerialization.MessageTypes.Next
+  items:
+  - uid: NextSerialization.MessageTypes.Next.BarcodeField
+    name: BarcodeField
+  - uid: NextSerialization.MessageTypes.Next.Bearer
+    name: Bearer
+  - uid: NextSerialization.MessageTypes.Next.Box
+    name: Box
+  - uid: NextSerialization.MessageTypes.Next.Column
+    name: Column
+  - uid: NextSerialization.MessageTypes.Next.ComPortData
+    name: ComPortData
+  - uid: NextSerialization.MessageTypes.Next.CountField
+    name: CountField
+  - uid: NextSerialization.MessageTypes.Next.DataSource
+    name: DataSource
+  - uid: NextSerialization.MessageTypes.Next.DateTimeField
+    name: DateTimeField
+  - uid: NextSerialization.MessageTypes.Next.FieldObject
+    name: FieldObject
+  - uid: NextSerialization.MessageTypes.Next.Font
+    name: Font
+  - uid: NextSerialization.MessageTypes.Next.LineField
+    name: LineField
+  - uid: NextSerialization.MessageTypes.Next.LineThickness
+    name: LineThickness
+  - uid: NextSerialization.MessageTypes.Next.LogoField
+    name: LogoField
+  - uid: NextSerialization.MessageTypes.Next.Margin
+    name: Margin
+  - uid: NextSerialization.MessageTypes.Next.NextMessage
+    name: NextMessage
+  - uid: NextSerialization.MessageTypes.Next.Panel
+    name: Panel
+  - uid: NextSerialization.MessageTypes.Next.Parameters
+    name: Parameters
+  - uid: NextSerialization.MessageTypes.Next.PrintHead
+    name: PrintHead
+  - uid: NextSerialization.MessageTypes.Next.Product
+    name: Product
+  - uid: NextSerialization.MessageTypes.Next.RectangleField
+    name: RectangleField
+  - uid: NextSerialization.MessageTypes.Next.Resource
+    name: Resource
+  - uid: NextSerialization.MessageTypes.Next.Resources
+    name: Resources
+  - uid: NextSerialization.MessageTypes.Next.TextField
+    name: TextField
+  - uid: NextSerialization.MessageTypes.Next.VariableField
+    name: VariableField
+  - uid: NextSerialization.MessageTypes.Next.Variables
+    name: Variables
+- uid: NextSerialization.MessageTypes.Next.Enumerations
+  name: NextSerialization.MessageTypes.Next.Enumerations
+  items:
+  - uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeEncoding
+    name: BarcodeEncoding
+  - uid: NextSerialization.MessageTypes.Next.Enumerations.BarcodeTypes
+    name: BarcodeTypes
+  - uid: NextSerialization.MessageTypes.Next.Enumerations.FieldOrientation
+    name: FieldOrientation
+  - uid: NextSerialization.MessageTypes.Next.Enumerations.PrintHeadTypes
+    name: PrintHeadTypes
+  - uid: NextSerialization.MessageTypes.Next.Enumerations.PrintResolutions
+    name: PrintResolutions
+  - uid: NextSerialization.MessageTypes.Next.Enumerations.TaskTypes
+    name: TaskTypes
+  - uid: NextSerialization.MessageTypes.Next.Enumerations.VarFieldSources
+    name: VarFieldSources
+- uid: NextSerialization.MessageTypes.Next.Extensions
+  name: NextSerialization.MessageTypes.Next.Extensions
+  items:
+  - uid: NextSerialization.MessageTypes.Next.Extensions.MessageSerializerExtensions
+    name: MessageSerializerExtensions
+- uid: NextSerialization.MessageTypes.Next.Interfaces
+  name: NextSerialization.MessageTypes.Next.Interfaces
+  items:
+  - uid: NextSerialization.MessageTypes.Next.Interfaces.IFieldObject
+    name: IFieldObject
+  - uid: NextSerialization.MessageTypes.Next.Interfaces.IFontObject
+    name: IFontObject
+  - uid: NextSerialization.MessageTypes.Next.Interfaces.IShapeObject
+    name: IShapeObject
+- uid: NextSerialization.MessageTypes.Next.Serialization
+  name: NextSerialization.MessageTypes.Next.Serialization
+  items:
+  - uid: NextSerialization.MessageTypes.Next.Serialization.MessageSerializer
+    name: MessageSerializer
