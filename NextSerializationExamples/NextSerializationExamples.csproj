@@ -10,7 +10,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="NextSerialization" Version="1.0.0" />
+      <PackageReference Include="NextSerialization" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="SampleFiles\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="SampleFiles\DiagraphReferenceResMarkData.next">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
