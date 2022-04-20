@@ -8,7 +8,8 @@ message format without the need to use the UI on an HMI device.
 ## Intended Audience
 
 The NextSerialization API is intended to be used by customers or third-party agents with 
-development teams tasked with creating custom messages outside of the NEXTCreate platform.
+development teams tasked with creating custom messages outside of the NEXTCreate platform.  
+See [API Documentation](https://diagraph-developer.github.io/NextSerialization/api/index.html) for more information.
 
 ## Getting Started
 
