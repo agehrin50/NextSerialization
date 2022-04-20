@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ProductObject">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Margin" />
+                <xs:element name="Box">
+                    <xs:complexType>
+                        <xs:attribute name="Width"
+                                      type="xs:decimal"
+                                      use="required" />
+                        <xs:attribute name="Length"
+                                      type="xs:decimal"
+                                      use="required" />
+                        <xs:attribute name="Height"
+                                      type="xs:decimal"
+                                      use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Variables">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Comm">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Comm">
+                                            <xs:complexType>
+                                                <xs:attribute name="Key"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="Value"
+                                                              type="xs:string"
+                                                              use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="DataSet">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded"
+                                                    name="DataSetObject">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="DisplayColumns">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element maxOccurs="unbounded"
+                                                                            name="Column">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="Name"
+                                                                                      type="xs:string"
+                                                                                      use="required" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="DataColumns">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element maxOccurs="unbounded"
+                                                                            name="Column">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="Name"
+                                                                                      type="xs:string"
+                                                                                      use="required" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="ColumnValues">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element maxOccurs="unbounded"
+                                                                            name="Column">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="Name"
+                                                                                      type="xs:string"
+                                                                                      use="required" />
+                                                                        <xs:attribute name="Value"
+                                                                                      type="xs:string"
+                                                                                      use="optional" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="Name"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="TableName"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="DataConnection"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="ID"
+                                                              type="xs:string"
+                                                              use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded"
+                            name="Panel">
+                    <xs:complexType>
+                        <xs:sequence minOccurs="0">
+                            <xs:element maxOccurs="unbounded"
+                                        name="Head">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded"
+                                                    name="FieldObject">
+                                            <xs:complexType>
+                                                <xs:sequence minOccurs="0">
+                                                    <xs:element minOccurs="0"
+                                                                name="LineThickness">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="Width"
+                                                                          type="xs:decimal"
+                                                                          use="required" />
+                                                            <xs:attribute name="Height"
+                                                                          type="xs:decimal"
+                                                                          use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0"
+                                                                name="Parameters">
+                                                        <xs:complexType>
+                                                            <xs:sequence minOccurs="0">
+                                                                <xs:element name="Bearer">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="Width"
+                                                                                      type="xs:decimal"
+                                                                                      use="required" />
+                                                                        <xs:attribute name="Height"
+                                                                                      type="xs:decimal"
+                                                                                      use="optional" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="MilSize"
+                                                                          type="xs:unsignedByte"
+                                                                          use="required" />
+                                                            <xs:attribute name="QuietZone"
+                                                                          type="xs:decimal"
+                                                                          use="required" />
+                                                            <xs:attribute name="IsHumanReadable"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Ratio"
+                                                                          type="xs:decimal"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Checksum"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Encoding"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="CaseSensitive"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Width"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Height"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0"
+                                                                name="Font">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="Family"
+                                                                          type="xs:string"
+                                                                          use="required" />
+                                                            <xs:attribute name="Style"
+                                                                          type="xs:string"
+                                                                          use="required" />
+                                                            <xs:attribute name="Width"
+                                                                          type="xs:unsignedByte"
+                                                                          use="required" />
+                                                            <xs:attribute name="Height"
+                                                                          type="xs:unsignedByte"
+                                                                          use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0"
+                                                                maxOccurs="unbounded"
+                                                                name="FieldObject">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="Data"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="AI"
+                                                                          type="xs:unsignedShort"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Regex"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="FNC1"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Source"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="DataSetName"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="DataColumnName"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="DefaultPreview"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="StartCount"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="StopCount"
+                                                                          type="xs:unsignedShort"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Increment"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="NumberOfDigits"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="PromptText"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Length"
+                                                                          type="xs:unsignedByte"
+                                                                          use="optional" />
+                                                            <xs:attribute name="Format"
+                                                                          type="xs:string"
+                                                                          use="optional" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="X"
+                                                              type="xs:decimal"
+                                                              use="required" />
+                                                <xs:attribute name="Y"
+                                                              type="xs:decimal"
+                                                              use="required" />
+                                                <xs:attribute name="LockAspectRatio"
+                                                              type="xs:string"
+                                                              use="required" />
+                                                <xs:attribute name="FileName"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Width"
+                                                              type="xs:decimal"
+                                                              use="optional" />
+                                                <xs:attribute name="Height"
+                                                              type="xs:decimal"
+                                                              use="required" />
+                                                <xs:attribute name="Family"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Style"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="StartCount"
+                                                              type="xs:unsignedShort"
+                                                              use="optional" />
+                                                <xs:attribute name="StopCount"
+                                                              type="xs:unsignedInt"
+                                                              use="optional" />
+                                                <xs:attribute name="Increment"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="NumberOfDigits"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Format"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="PalletSize"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="AlphaCount"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Days"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Weeks"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Months"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Years"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Type"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Orientation"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Data"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="PromptText"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Length"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                                <xs:attribute name="Source"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="DataSetName"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="DataColumnName"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="DefaultPreview"
+                                                              type="xs:string"
+                                                              use="optional" />
+                                                <xs:attribute name="Index"
+                                                              type="xs:unsignedByte"
+                                                              use="optional" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="UID"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                    <xs:attribute name="Name"
+                                                  type="xs:string"
+                                                  use="required" />
+                                    <xs:attribute name="Type"
+                                                  type="xs:unsignedShort"
+                                                  use="optional" />
+                                    <xs:attribute name="Offset"
+                                                  type="xs:decimal"
+                                                  use="required" />
+                                    <xs:attribute name="Enabled"
+                                                  type="xs:string"
+                                                  use="required" />
+                                    <xs:attribute name="DPI"
+                                                  type="xs:unsignedShort"
+                                                  use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Name"
+                                      type="xs:string"
+                                      use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Resources">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded"
+                                        name="Resource">
+                                <xs:complexType>
+                                    <xs:attribute name="FileName"
+                                                  type="xs:string"
+                                                  use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Name"
+                          type="xs:string"
+                          use="required" />
+            <xs:attribute name="ContinuousPrint"
+                          type="xs:string"
+                          use="required" />
+            <xs:attribute name="GapBetweenPrint"
+                          type="xs:decimal"
+                          use="required" />
+            <xs:attribute name="UsePrintCount"
+                          type="xs:string"
+                          use="required" />
+            <xs:attribute name="TaskType"
+                          type="xs:string"
+                          use="required" />
+            <xs:attribute name="PrintCount"
+                          type="xs:unsignedByte"
+                          use="required" />
+            <xs:attribute name="DPI"
+                          type="xs:unsignedShort"
+                          use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
